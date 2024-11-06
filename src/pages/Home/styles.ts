@@ -14,9 +14,13 @@ export const NavBar = styled.div`
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  gap: 22rem;
+  gap: 15rem;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
+    gap: 12rem;
+  }
+
+  @media (max-width: 767px) {
     gap: 6rem;
   }
 `;
@@ -80,9 +84,13 @@ export const Content = styled.div`
 
   position: absolute;
   height: 100vh;
-  left: 1rem;
+  left: -3em;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
+    left: -1rem;
+  }
+
+  @media (max-width: 767px) {
     left: 0.3rem;
     top: -10rem;
   }
@@ -91,8 +99,12 @@ export const Content = styled.div`
 export const LogoWrapper = styled.div`
   width: 70vw;
 
-  @media (max-width: 768px) {
-    width: 300px;
+  @media (max-width: 1024px) {
+    width: 40vh;
+  }
+
+  @media (max-width: 767px) {
+    width: 40vh;
   }
 
   img {
@@ -103,36 +115,19 @@ export const LogoWrapper = styled.div`
 
 export const BackgroundImg = styled.div`
   position: absolute;
-  width: 70vh;
-  right: 4rem;
-  bottom: 0;
+  width: 60vh;
+  right: 5.5rem;
+  bottom: 3rem;
 
-  @media (max-width: 1880px) {
-    width: 60vh;
-  }
-
-  @media (max-width: 1580px) {
-    width: 50vh;
-    right: 5rem;
+  @media (max-width: 1024px) {
+    width: 45vh;
     bottom: 10rem;
+    right: 4rem;
   }
 
-  @media (max-width: 1200px) {
-    width: 40vh;
+  @media (max-width: 767px) {
+    width: 35vh;
     right: 5rem;
-    bottom: 15rem;
-  }
-
-  @media (max-width: 600px) {
-    width: 25vh;
-    right: 5rem;
-    bottom: 30rem;
-  }
-
-  @media (max-width: 430px) {
-    width: 25vh;
-    right: 5rem;
-    bottom: 18rem;
   }
 
   img {
