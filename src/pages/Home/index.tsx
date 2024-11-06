@@ -7,12 +7,15 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 
-// import { LogoImg, WomankidImg } from "../../assets";
+import { LogoImg, WomankidImg } from "../../assets";
 
 import {
+  BackgroundImg,
   Container,
+  Content,
   LanguageMenu,
   LanguageMenuItem,
+  LogoWrapper,
   Menu,
   MenuItem,
   NavBar,
@@ -95,6 +98,14 @@ export function Home() {
           </SocialBarItem>
         </SocialBar>
       </NavBar>
+      <Content>
+        <LogoWrapper>
+          <img src={LogoImg} alt="Logo" />
+        </LogoWrapper>
+      </Content>
+      <BackgroundImg>
+        <img src={WomankidImg} alt="Background" />
+      </BackgroundImg>
     </Container>
   );
 }

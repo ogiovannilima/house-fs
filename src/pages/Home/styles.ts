@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 100%;
+  width: 100vw;
 `;
 
 export const NavBar = styled.div`
@@ -72,3 +72,71 @@ export const SocialBar = styled.div`
 `;
 
 export const SocialBarItem = styled.div``;
+
+export const Content = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  height: 100vh;
+  left: 1rem;
+
+  @media (max-width: 768px) {
+    left: 0.3rem;
+    top: -10rem;
+  }
+`;
+
+export const LogoWrapper = styled.div`
+  width: 70vw;
+
+  @media (max-width: 768px) {
+    width: 300px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+`;
+
+export const BackgroundImg = styled.div`
+  position: absolute;
+  width: 70vh;
+  right: 4rem;
+  bottom: 0;
+
+  @media (max-width: 1880px) {
+    width: 60vh;
+  }
+
+  @media (max-width: 1580px) {
+    width: 50vh;
+    right: 5rem;
+    bottom: 10rem;
+  }
+
+  @media (max-width: 1200px) {
+    width: 40vh;
+    right: 5rem;
+    bottom: 15rem;
+  }
+
+  @media (max-width: 600px) {
+    width: 25vh;
+    right: 5rem;
+    bottom: 30rem;
+  }
+
+  @media (max-width: 430px) {
+    width: 25vh;
+    right: 5rem;
+    bottom: 18rem;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+`;
