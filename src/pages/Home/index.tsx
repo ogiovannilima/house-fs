@@ -1,39 +1,39 @@
-// import { useState } from "react";
-
-// import {
-//   FaInstagram,
-//   FaTwitter,
-//   FaFacebookF,
-//   FaLinkedin,
-// } from "react-icons/fa";
-
-// import { LogoImg, WomankidImg } from "../../assets";
+import { useState } from "react";
 
 import {
+  FaInstagram,
+  FaTwitter,
+  FaFacebookF,
+  FaLinkedin,
+} from "react-icons/fa";
+
+import { LogoImg, WomankidImg } from "../../assets";
+
+import {
+  BackgroundImg,
   Container,
-  // BackgroundImg,
-  // Content,
-  // LanguageMenu,
-  // LanguageMenuItem,
-  // LogoWrapper,
-  // Menu,
-  // MenuItem,
-  // NavBar,
-  // SocialBar,
-  // SocialBarItem,
+  Content,
+  LanguageMenu,
+  LanguageMenuItem,
+  LogoWrapper,
+  Menu,
+  MenuItem,
+  NavBar,
+  SocialBar,
+  SocialBarItem,
 } from "./styles";
 
 export function Home() {
-  // const [selectedLanguage, setSelectedLanguage] = useState<"ES" | "EN">("ES");
-  // const [selectedMenuItem, setSelectedMenuItem] = useState("HOME");
+  const [selectedLanguage, setSelectedLanguage] = useState<"ES" | "EN">("ES");
+  const [selectedMenuItem, setSelectedMenuItem] = useState("HOME");
 
-  // const handleLanguageChange = (language: "ES" | "EN") => {
-  //   setSelectedLanguage(language);
-  // };
+  const handleLanguageChange = (language: "ES" | "EN") => {
+    setSelectedLanguage(language);
+  };
 
-  // const handleMenuItemChange = (item: string) => {
-  //   setSelectedMenuItem(item);
-  // };
+  const handleMenuItemChange = (item: string) => {
+    setSelectedMenuItem(item);
+  };
 
   // useEffect(() => {
   //   console.log(selectedLanguage);
@@ -42,7 +42,7 @@ export function Home() {
 
   return (
     <Container>
-      {/* <NavBar>
+      <NavBar>
         <LanguageMenu>
           <LanguageMenuItem
             selected={selectedLanguage === "ES"}
@@ -105,7 +105,7 @@ export function Home() {
       </Content>
       <BackgroundImg>
         <img src={WomankidImg} alt="Background" />
-      </BackgroundImg> */}
+      </BackgroundImg>
     </Container>
   );
 }

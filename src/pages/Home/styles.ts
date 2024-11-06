@@ -17,6 +17,7 @@ export const NavBar = styled.div`
   align-items: flex-end;
   justify-content: center;
   gap: 15rem;
+  background-color: green;
 
   @media (max-width: 1024px) {
     gap: 12rem;
@@ -83,6 +84,7 @@ export const Content = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: blue;
 
   position: absolute;
   height: 100%;
@@ -128,6 +130,7 @@ export const BackgroundImg = styled.div`
   width: 50%;
   right: 5.5rem;
   bottom: 3rem;
+  background-color: yellow;
 
   @media (max-width: 1024px) {
     width: 65%;
