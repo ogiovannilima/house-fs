@@ -42,7 +42,7 @@ export function Home() {
 
   return (
     <Container>
-      <NavBar>
+      {/* <NavBar>
         <LanguageMenu>
           <LanguageMenuItem
             selected={selectedLanguage === "ES"}
@@ -105,7 +105,7 @@ export function Home() {
       </Content>
       <BackgroundImg>
         <img src={WomankidImg} alt="Background" />
-      </BackgroundImg>
+      </BackgroundImg> */}
     </Container>
   );
 }
