@@ -9,7 +9,7 @@ export const NavBar = styled.div`
   position: fixed;
   right: 0;
   top: 0;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
