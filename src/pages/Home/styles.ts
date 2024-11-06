@@ -83,7 +83,7 @@ export const Content = styled.div`
   align-items: center;
 
   position: absolute;
-  height: 100vh;
+  height: 80%;
   left: -3em;
 
   @media (max-width: 1024px) {
@@ -115,18 +115,18 @@ export const LogoWrapper = styled.div`
 
 export const BackgroundImg = styled.div`
   position: absolute;
-  width: 60vh;
+  width: 50%;
   right: 5.5rem;
   bottom: 3rem;
 
   @media (max-width: 1024px) {
-    width: 45vh;
+    width: 65%;
     bottom: 10rem;
     right: 4rem;
   }
 
   @media (max-width: 767px) {
-    width: 35vh;
+    width: 80%;
     right: 5rem;
   }
 
