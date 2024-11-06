@@ -136,6 +136,7 @@ export const BackgroundImg = styled.div`
   @media (max-width: 767px) {
     width: 80%;
     right: 5rem;
+    bottom: 20%;
   }
 
   img {
