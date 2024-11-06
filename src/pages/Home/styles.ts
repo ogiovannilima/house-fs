@@ -130,7 +130,6 @@ export const BackgroundImg = styled.div`
   width: 50%;
   right: 5.5rem;
   bottom: 3rem;
-  background-color: yellow;
 
   @media (max-width: 1024px) {
     width: 65%;
