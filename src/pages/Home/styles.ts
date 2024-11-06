@@ -83,28 +83,36 @@ export const Content = styled.div`
   align-items: center;
 
   position: absolute;
-  height: 80%;
-  left: -3em;
+  height: 100%;
+  left: 1rem;
 
   @media (max-width: 1024px) {
-    left: -1rem;
+    height: 85%;
+    left: -15rem;
   }
 
   @media (max-width: 767px) {
-    left: 0.3rem;
+    height: 100%;
+    left: -10rem;
     top: -10rem;
   }
 `;
 
 export const LogoWrapper = styled.div`
-  width: 70vw;
+  width: 100%;
 
   @media (max-width: 1024px) {
-    width: 40vh;
+    position: relative;
+    width: 55%;
+    top: -12rem;
+    left: 3rem;
   }
 
   @media (max-width: 767px) {
-    width: 40vh;
+    position: relative;
+    width: 50%;
+    top: -2rem;
+    left: 2rem;
   }
 
   img {
