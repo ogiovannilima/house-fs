@@ -84,13 +84,13 @@ export const SocialBarItem = styled.div`
 export const ImageWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  left: 10rem;
 `;
 
 export const LogoImage = styled.div`
+  position: relative;
+  left: 10rem;
+  top: 1rem;
+
   img {
     width: 50vh;
     object-fit: contain;
@@ -98,6 +98,10 @@ export const LogoImage = styled.div`
 `;
 
 export const BackgroundImage = styled.div`
+  position: relative;
+  left: 10rem;
+  top: -3rem;
+
   img {
     width: 45vh;
     object-fit: contain;
