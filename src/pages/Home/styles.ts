@@ -84,26 +84,52 @@ export const SocialBarItem = styled.div`
 export const ImageWrapper = styled.div`
   display: flex;
   flex-direction: column;
+
+  @media (min-width: 769px) {
+    // Para desktop
+    align-items: center;
+    width: 100%;
+    position: relative;
+  }
 `;
 
 export const LogoImage = styled.div`
   position: relative;
-  left: 10rem;
+  left: 11.5rem;
   top: 1rem;
 
   img {
     width: 50vh;
     object-fit: contain;
   }
+
+  @media (min-width: 481px) {
+    // Para tablet
+    left: 5rem;
+  }
+
+  @media (min-width: 769px) {
+    // Para desktop
+  }
 `;
 
 export const BackgroundImage = styled.div`
   position: relative;
-  left: 10rem;
+  left: 10.5rem;
   top: -3rem;
 
   img {
     width: 45vh;
     object-fit: contain;
+  }
+
+  @media (min-width: 481px) {
+    // Para tablet
+    left: 5rem;
+  }
+
+  @media (min-width: 769px) {
+    // Para desktop
+    top: -8rem;
   }
 `;
