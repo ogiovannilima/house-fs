@@ -41,8 +41,8 @@ export function Home() {
   // }, [selectedLanguage, selectedMenuItem]);
 
   return (
-    <Container>
-      <NavBar>
+    <Container id="container">
+      <NavBar id="navbar">
         <LanguageMenu>
           <LanguageMenuItem
             selected={selectedLanguage === "ES"}
@@ -98,14 +98,14 @@ export function Home() {
           </SocialBarItem>
         </SocialBar>
       </NavBar>
-      <Content>
+      <Content id="content">
         <LogoWrapper>
           <img src={LogoImg} alt="Logo" />
         </LogoWrapper>
+        <BackgroundImg>
+          <img src={WomankidImg} alt="Background" />
+        </BackgroundImg>
       </Content>
-      <BackgroundImg>
-        <img src={WomankidImg} alt="Background" />
-      </BackgroundImg>
     </Container>
   );
 }
