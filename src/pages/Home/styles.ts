@@ -10,7 +10,7 @@ export const Container = styled.div`
     padding: 3rem;
   }
 
-  @media (min-width: 769px) {
+  @media (min-width: 1025px) {
     // Para desktop
     padding: 5rem 3rem;
   }
@@ -85,7 +85,7 @@ export const ImageWrapper = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media (min-width: 769px) {
+  @media (min-width: 1025px) {
     // Para desktop
     align-items: center;
     width: 100%;
@@ -95,7 +95,7 @@ export const ImageWrapper = styled.div`
 
 export const LogoImage = styled.div`
   position: relative;
-  left: 11.5rem;
+  left: 10rem;
   top: 1rem;
 
   img {
@@ -108,7 +108,7 @@ export const LogoImage = styled.div`
     left: 5rem;
   }
 
-  @media (min-width: 769px) {
+  @media (min-width: 1025px) {
     // Para desktop
     position: absolute;
     left: -5rem;
@@ -134,7 +134,7 @@ export const BackgroundImage = styled.div`
     left: 5rem;
   }
 
-  @media (min-width: 769px) {
+  @media (min-width: 1025px) {
     // Para desktop
     top: -8rem;
     left: 30rem;
