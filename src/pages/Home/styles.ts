@@ -110,6 +110,12 @@ export const LogoImage = styled.div`
 
   @media (min-width: 769px) {
     // Para desktop
+    position: absolute;
+    left: -5rem;
+
+    img {
+      width: 140vh;
+    }
   }
 `;
 
@@ -131,5 +137,10 @@ export const BackgroundImage = styled.div`
   @media (min-width: 769px) {
     // Para desktop
     top: -8rem;
+    left: 30rem;
+
+    img {
+      width: 70vh;
+    }
   }
 `;
