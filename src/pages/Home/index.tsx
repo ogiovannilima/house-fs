@@ -7,21 +7,17 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 
-import { LogoImg, WomankidImg } from "../../assets";
+// import { LogoImg, WomankidImg } from "../../assets";
 
 import {
-  BackgroundImg,
   Container,
   Content,
-  ImageWrapper,
   LanguageMenu,
   LanguageMenuItem,
-  LogoWrapper,
   Menu,
   MenuItem,
   NavBar,
   PageOne,
-  PageTwo,
   SocialBar,
   SocialBarItem,
 } from "./styles";
