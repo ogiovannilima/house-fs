@@ -1,24 +1,23 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  padding: 1rem;
+  padding: 1rem 1rem;
 `;
 
 export const Content = styled.div`
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  height: 100%;
 `;
+
 export const PageOne = styled.section`
-  width: 100%;
+  height: 100%;
   display: flex;
-  align-items: center;
+  justify-content: flex-end;
 `;
 
 export const NavBar = styled.div`
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -43,7 +42,6 @@ export const LanguageMenuItem = styled.div<{ selected?: boolean }>`
 export const Menu = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 `;
 
 export const MenuItem = styled.div<{ selected?: boolean }>`
