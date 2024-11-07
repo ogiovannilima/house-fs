@@ -4,16 +4,28 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
   padding: 3rem 1rem;
+`;
+
+export const Content = styled.div`
+  height: 100%;
+  width: 100%;
   display: flex;
-  flex-direction: row-reverse;
+  align-items: center;
+  flex-direction: column;
+`;
+export const PageOne = styled.section`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
 `;
 
 export const NavBar = styled.div`
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-between;
-  height: 100%;
 `;
 
 export const LanguageMenu = styled.div`
@@ -43,7 +55,6 @@ export const MenuItem = styled.div<{ selected?: boolean }>`
   cursor: pointer;
   transition: color 0.2s;
   writing-mode: vertical-rl;
-  text-orientation: mixed;
   transform: rotate(180deg);
 
   &:hover {
@@ -61,40 +72,5 @@ export const SocialBarItem = styled.div`
     fill: green;
     width: 1.5rem;
     height: 1.5rem;
-  }
-`;
-
-export const Content = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
-  flex: 1;
-`;
-
-export const LogoWrapper = styled.div`
-  width: 100%;
-  position: relative;
-  left: 35vw;
-  top: 2vh;
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-`;
-
-export const BackgroundImg = styled.div`
-  width: 45vh;
-  position: relative;
-  left: 32vw;
-  top: -5vh;
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
   }
 `;
