@@ -47,7 +47,6 @@ export const Menu = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 3rem;
 `;
 
 export const MenuItem = styled.div<{ selected?: boolean }>`
