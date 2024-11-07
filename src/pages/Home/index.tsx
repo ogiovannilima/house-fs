@@ -7,13 +7,14 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 
-// import { LogoImg, WomankidImg } from "../../assets";
-
 import {
+  BackgroundImage,
   Container,
   Content,
+  ImageWrapper,
   LanguageMenu,
   LanguageMenuItem,
+  LogoImage,
   Menu,
   MenuItem,
   NavBar,
@@ -21,6 +22,8 @@ import {
   SocialBar,
   SocialBarItem,
 } from "./styles";
+
+import { LogoImg, WomankidImg } from "../../assets";
 
 export function Home() {
   const [selectedLanguage, setSelectedLanguage] = useState<"ES" | "EN">("ES");
@@ -43,6 +46,14 @@ export function Home() {
     <Container id="container">
       <Content id="content">
         <PageOne>
+          <ImageWrapper>
+            <LogoImage>
+              <img src={LogoImg} alt="Logo" />
+            </LogoImage>
+            <BackgroundImage>
+              <img src={WomankidImg} alt="Background" />
+            </BackgroundImage>
+          </ImageWrapper>
           <NavBar id="navbar">
             <LanguageMenu>
               <LanguageMenuItem
