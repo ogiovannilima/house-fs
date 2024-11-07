@@ -88,7 +88,7 @@ export const ImageWrapper = styled.div`
 
 export const LogoImage = styled.div`
   position: relative;
-  left: 11rem;
+  left: 10rem;
   top: 1rem;
 
   img {
