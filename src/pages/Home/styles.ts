@@ -4,6 +4,8 @@ export const Container = styled.div`
   width: 100vw;
   height: 100vh;
   padding: 1rem;
+  max-width: 2640px;
+  margin: 0 auto;
 
   @media (min-width: 481px) {
     // Para tablet
@@ -364,6 +366,7 @@ export const PageFour = styled.section`
 
   @media (min-width: 481px) {
     // Para tablet
+    flex-direction: row;
   }
 
   @media (min-width: 1025px) {
@@ -371,131 +374,66 @@ export const PageFour = styled.section`
   }
 `;
 
-export const BoxTextButtonServices = styled.div`
+export const BoxTextServices = styled.div`
   display: flex;
   flex-direction: column;
+  gap: 1.5rem;
   align-items: center;
-  gap: 1rem;
-
-  padding-bottom: 1rem;
 
   @media (min-width: 481px) {
     // Para tablet
+    max-width: 450px;
   }
 
   @media (min-width: 1025px) {
     // Para desktop
-    max-width: 42vw;
   }
 `;
 
-export const CardServicios = styled.div`
+export const TextServices = styled.div`
+  font-size: 1rem;
+  font-weight: 400;
+`;
+
+export const TitleServices = styled.div`
+  font-size: 1rem;
+  font-weight: 600;
+  font-style: normal;
+`;
+
+export const SpecialistButton = styled.button`
+  background-color: #009a57;
+  color: #fff;
+  border-radius: 0.8rem;
+  border: 0;
+  padding: 0.5rem 1rem;
+  max-width: 13rem;
+`;
+
+export const CardServices = styled.div`
+  display: flex;
+  flex-direction: column;
+
   background-color: #f4f4f4;
   border-radius: 1rem;
   padding: 1rem;
 
+  img {
+    width: 4rem;
+  }
+
+  @media (min-width: 481px) {
+    // Para tablet
+  }
+
+  @media (min-width: 1025px) {
+    // Para desktop
+  }
+`;
+
+export const BoxIconTitle = styled.div`
   display: flex;
-  flex-direction: column;
+  align-items: center;
   gap: 1rem;
-
-  span {
-    font-size: 0.8rem;
-  }
-  div {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-
-    img {
-      width: 5rem;
-    }
-  }
-
-  @media (min-width: 481px) {
-    // Para tablet
-    max-width: 40vw;
-    position: relative;
-
-    div,
-    span {
-      padding-left: 1.5rem;
-      font-size: 0.875rem;
-    }
-
-    img {
-      position: absolute;
-      right: 22rem;
-    }
-  }
-
-  @media (min-width: 1025px) {
-    // Para desktop
-    max-width: 25vw;
-    position: relative;
-
-    div {
-      img {
-        width: 10vw;
-        position: absolute;
-        right: 21rem;
-        top: -5rem;
-      }
-
-      div {
-        padding-left: 3rem;
-      }
-    }
-  }
-`;
-
-export const SpecialistButtonContact = styled.button`
-  text-transform: uppercase;
-  background-color: #009a57;
-  color: #fff;
-  padding: 0.5rem 1rem;
-  border-radius: 1rem;
-  max-width: 70vw;
-  border: none;
-  cursor: pointer;
-
-  @media (min-width: 481px) {
-    // Para tablet
-  }
-
-  @media (min-width: 1025px) {
-    // Para desktop
-  }
-`;
-
-export const ServiciosTitle = styled.div`
-  padding: 0 0 0.5rem 0;
-  font-size: 1rem;
-  font-weight: 600;
-  font-style: normal;
-
-  @media (min-width: 481px) {
-    padding: 0 0 0.5rem 0;
-  }
-
-  @media (min-width: 1025px) {
-    padding: 0 0 0.5rem 7.5rem;
-  }
-`;
-
-export const BoxServicios = styled.div`
-  @media (min-width: 481px) {
-    // Para tablet
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-  }
-
-  @media (min-width: 1025px) {
-    // Para desktop
-    max-width: 90vw;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    gap: 8rem;
-  }
+  padding-bottom: 1rem;
 `;

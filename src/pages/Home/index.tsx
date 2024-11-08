@@ -13,10 +13,10 @@ import { es } from "../../translations/es";
 import {
   BackgroundImage,
   BottomSectoresyServicios,
-  BoxServicios,
-  BoxTextButtonServices,
+  BoxIconTitle,
+  BoxTextServices,
   CardSectoresyServicios,
-  CardServicios,
+  CardServices,
   Container,
   Content,
   DescriptionPage,
@@ -34,15 +34,16 @@ import {
   PageTwo,
   QuoteBar,
   QuoteTitle,
-  ServiciosTitle,
   SocialBar,
   SocialBarItem,
-  SpecialistButtonContact,
+  SpecialistButton,
   SubTitlePage,
   TextContainer,
   TextQuoteBox,
   TextQuoteItem,
+  TextServices,
   TitlePage,
+  TitleServices,
   TopSectoresyServicios,
 } from "./styles";
 
@@ -285,61 +286,57 @@ export function Home() {
           </BottomSectoresyServicios>
         </PageThree>
         <PageFour>
-          <ServiciosTitle>Aseguradoras y Asegurados</ServiciosTitle>
-          <BoxServicios>
-            <BoxTextButtonServices>
-              <span>
-                House Facility se especializa en brindar servicios integrales
-                para el sector de seguros, con una respuesta rápida y eficiente
-                en la gestión de siniestros. Nuestra experiencia y equipo
-                cualificado nos permiten atender con precisión cada caso,
-                garantizando la reparación y el mantenimiento de espacios
-                afectados, desde hogares y comunidades hasta comercios y grandes
-                instalaciones.
-              </span>
-              <span>
-                Ofrecemos soluciones de reparaciones multigremio que incluyen
-                electricidad, fontanería, albañilería, pintura y carpintería,
-                además de servicios de mantenimiento, limpieza y seguridad. Esta
-                amplia gama de servicios asegura una restauración completa, con
-                un enfoque en la calidad y la satisfacción del cliente final.
-              </span>
-              <span>
-                En House Facility, somos el aliado estratégico para aseguradoras
-                que buscan eficiencia, profesionalismo y la tranquilidad de sus
-                asegurados.
-              </span>
-              <SpecialistButtonContact>
-                Habla con un especialista
-              </SpecialistButtonContact>
-            </BoxTextButtonServices>
+          <BoxTextServices>
+            <TitleServices>Asseguradores y asegurados</TitleServices>
+            <TextServices>
+              House Facility se especializa en brindar servicios integrales para
+              el sector de seguros, con una respuesta rápida y eficiente en la
+              gestión de siniestros. Nuestra experiencia y equipo cualificado
+              nos permiten atender con precisión cada caso, garantizando la
+              reparación y el mantenimiento de espacios afectados, desde hogares
+              y comunidades hasta comercios y grandes instalaciones.
+              <br />
+              <br />
+              Ofrecemos soluciones de reparaciones multigremio que incluyen
+              electricidad, fontanería, albañilería, pintura y carpintería,
+              además de servicios de mantenimiento, limpieza y seguridad. Esta
+              amplia gama de servicios asegura una restauración completa, con un
+              enfoque en la calidad y la satisfacción del cliente final.
+              <br />
+              <br />
+              En House Facility, somos el aliado estratégico para aseguradoras
+              que buscan eficiencia, profesionalismo y la tranquilidad de sus
+              asegurados.
+            </TextServices>
+            <SpecialistButton>Habla con un especialista</SpecialistButton>
+          </BoxTextServices>
 
-            <CardServicios>
-              <div>
-                <img src={ManLadderImg} alt="Man Ladder" />
-                <QuoteTitle>Manitas a domicilo</QuoteTitle>
-              </div>
-              <span>
-                Servicios de bricolaje para colgar cuadros, cortinas o lámparas.
-                Nuestros manitas también pueden montar muebles, colocar baldas o
-                instalar accesorios de baño
-              </span>
-              <span>
-                ¿Necesitas un manitas a domicilio? En House facility te
-                ofrecemos servicios de manitas con desplazamiento gratuito para
-                que no tengas que preocuparte del mantenimiento del hogar. El
-                servicio de manitas en casa te ofrece colgar cuadros, colgar
-                espejos, colocar rieles, colgar estanterías o lámparas, colocar
-                estores, cortinas o baldas, instalar accesorios de baño, montar
-                muebles tipo kit, cambiar enchufes o instalación de lamparas o
-                apliques entre otras muchas cosas. Estas son solo algunas de las
-                tareas que llevan a cabo los manitas de House facility, pero no
-                te preocupes si no ves lo que necesitas, porque nuestros
-                profesionales se adaptan a tus necesidades y podrán realizar
-                <b> cualquier arreglo a domicilio que necesites.</b>
-              </span>
-            </CardServicios>
-          </BoxServicios>
+          <CardServices>
+            <BoxIconTitle>
+              <img src={ManLadderImg} alt="ManLadder" />
+              <TitleServices>Manitas a domicilo</TitleServices>
+            </BoxIconTitle>
+
+            <span>
+              Servicios de bricolaje para colgar cuadros, cortinas o lámparas.
+              Nuestros manitas también pueden montar muebles, colocar baldas o
+              instalar accesorios de baño
+              <br />
+              <br />
+              ¿Necesitas un manitas a domicilio? En House facility te ofrecemos
+              servicios de manitas con desplazamiento gratuito para que no
+              tengas que preocuparte del mantenimiento del hogar. El servicio de
+              manitas en casa te ofrece colgar cuadros, colgar espejos, colocar
+              rieles, colgar estanterías o lámparas, colocar estores, cortinas o
+              baldas, instalar accesorios de baño, montar muebles tipo kit,
+              cambiar enchufes o instalación de lamparas o apliques entre otras
+              muchas cosas. Estas son solo algunas de las tareas que llevan a
+              cabo los manitas de House facility, pero no te preocupes si no ves
+              lo que necesitas, porque nuestros profesionales se adaptan a tus
+              necesidades y podrán realizar{" "}
+              <b>cualquier arreglo a domicilio que necesites.</b>
+            </span>
+          </CardServices>
         </PageFour>
       </Content>
     </Container>
