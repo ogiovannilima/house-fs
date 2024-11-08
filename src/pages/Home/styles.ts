@@ -146,7 +146,6 @@ export const BackgroundImage = styled.div`
 `;
 
 export const PageTwo = styled.section`
-  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -189,7 +188,7 @@ export const SubTitlePage = styled.div`
 `;
 
 export const DescriptionPage = styled.div`
-  text-align: justify;
+  text-align: start;
   padding: 1rem 0;
   font-size: 1rem;
 `;
@@ -226,8 +225,8 @@ export const TextQuoteItem = styled.div`
 
 export const QuoteBar = styled.div`
   background-color: #009a57;
-  width: 20px;
-  height: 100%;
+  flex-shrink: 0;
+  width: 5px;
   margin-right: 0.5rem;
 `;
 
@@ -236,4 +235,118 @@ export const QuoteTitle = styled.div`
   font-size: 1rem;
   font-weight: 600;
   font-style: normal;
+`;
+
+export const PageThree = styled.section`
+  display: flex;
+  align-items: center;
+  background-color: #f4f4f4;
+  flex-direction: column;
+  padding: 2rem 0.5rem 2rem 0.5rem;
+`;
+
+export const TopSectoresyServicios = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column;
+  text-align: start;
+  padding-top: 1rem;
+  align-items: center;
+
+  span {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    height: 100%;
+  }
+
+  @media (min-width: 481px) {
+    // Para tablet
+    flex-direction: row;
+    gap: 2rem;
+    align-items: stretch;
+  }
+
+  @media (min-width: 1025px) {
+    // Para desktop
+    max-width: 75vw;
+    align-items: center;
+    justify-content: space-between;
+  }
+`;
+
+export const BottomSectoresyServicios = styled.div`
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 1rem;
+  gap: 1rem;
+
+  @media (min-width: 481px) {
+    // Para tablet
+    flex-direction: row;
+    gap: 2rem;
+    align-items: stretch;
+  }
+
+  @media (min-width: 1025px) {
+    // Para desktop
+    max-width: 75vw;
+    align-items: center;
+    justify-content: space-between;
+  }
+`;
+
+export const DescriptionSectoresyServicios = styled.div`
+  display: flex;
+
+  font-size: 1rem;
+  font-weight: 600;
+  font-style: normal;
+
+  span {
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+
+  @media (min-width: 481px) {
+    // Para tablet
+  }
+
+  @media (min-width: 1025px) {
+    // Para desktop
+    max-width: 20vw;
+  }
+`;
+
+export const CardSectoresyServicios = styled.div`
+  background-color: #fff;
+  border-radius: 1rem;
+  max-width: 90vw;
+  padding: 1rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  @media (min-width: 481px) {
+    // Para tablet
+  }
+
+  @media (min-width: 1025px) {
+    // Para desktop
+    max-width: 40vw;
+  }
 `;

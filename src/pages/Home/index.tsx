@@ -9,9 +9,12 @@ import {
 
 import {
   BackgroundImage,
+  BottomSectoresyServicios,
+  CardSectoresyServicios,
   Container,
   Content,
   DescriptionPage,
+  DescriptionSectoresyServicios,
   ImageWrapper,
   LanguageMenu,
   LanguageMenuItem,
@@ -20,6 +23,7 @@ import {
   MenuItem,
   NavBar,
   PageOne,
+  PageThree,
   PageTwo,
   QuoteBar,
   QuoteTitle,
@@ -30,9 +34,17 @@ import {
   TextQuoteBox,
   TextQuoteItem,
   TitlePage,
+  TopSectoresyServicios,
 } from "./styles";
 
-import { LogoImg, WomankidImg } from "../../assets";
+import {
+  AirportImg,
+  BagsImg,
+  BooksImg,
+  LogoImg,
+  PalaceImg,
+  WomankidImg,
+} from "../../assets";
 
 export function Home() {
   const [selectedLanguage, setSelectedLanguage] = useState<"ES" | "EN">("ES");
@@ -178,6 +190,83 @@ export function Home() {
             </TextQuoteItem>
           </TextQuoteBox>
         </PageTwo>
+        <PageThree>
+          <TitlePage>Sectores y Servicios</TitlePage>
+          <TopSectoresyServicios>
+            <span>
+              <DescriptionSectoresyServicios>
+                Con un equipo altamente preparado y cualificado, House Facility
+                ofrece una cobertura integral para atender llamados de
+                siniestros en casi todas las provincias de España.
+              </DescriptionSectoresyServicios>
+              <DescriptionSectoresyServicios>
+                <span>
+                  Nuestra labor abarca diversos sectores, desde residencias y
+                  comunidades hasta comercios y grandes instalaciones, siempre
+                  con la eficiencia y el profesionalismo que caracterizan
+                  nuestro trabajo.
+                </span>
+              </DescriptionSectoresyServicios>
+            </span>
+
+            <CardSectoresyServicios>
+              <img src={BooksImg} alt="Books" />
+              <h1>Educativo</h1>
+              <span>
+                House Facility ofrece servicios integrales adaptados a las
+                necesidades de instituciones educativas, con el objetivo de
+                crear entornos seguros, organizados y acogedores que promuevan
+                el aprendizaje y el bienestar de estudiantes, docentes y
+                personal administrativo. Nos enfocamos en la gestión completa de
+                instalaciones educativas, desde la recepción y atención al
+                público hasta el mantenimiento y la limpieza de los espacios,
+                asegurando una operación eficiente y responsable.
+              </span>
+            </CardSectoresyServicios>
+          </TopSectoresyServicios>
+
+          <BottomSectoresyServicios>
+            <CardSectoresyServicios>
+              <img src={PalaceImg} alt="Palace" />
+              <h1>Sector Público</h1>
+              <span>
+                En House Facility, ofrecemos un conjunto completo de servicios
+                orientados al sector público, con el objetivo de mejorar la
+                eficiencia, la sostenibilidad y el bienestar de los espacios
+                públicos. Nuestra labor abarca desde la recepción y atención al
+                público hasta la gestión de obras y estacionamientos, con un
+                compromiso constante en la preservación del patrimonio y en la
+                garantía de entornos seguros y funcionales.
+              </span>
+            </CardSectoresyServicios>
+            <CardSectoresyServicios>
+              <img src={AirportImg} alt="Airport" />
+              <h1>Aeroportuario</h1>
+              <span>
+                House Facility ofrece soluciones integradas y personalizadas
+                para el sector aeroportuario, enfocadas en la eficiencia, la
+                seguridad y el bienestar de pasajeros y empleados. Con un equipo
+                especializado y tecnologías avanzadas, nuestro objetivo es
+                proporcionar un entorno aeroportuario que garantice la comodidad
+                y satisfacción de todos los usuarios, optimizando la operación
+                de cada espacio.
+              </span>
+            </CardSectoresyServicios>
+            <CardSectoresyServicios>
+              <img src={BagsImg} alt="Bags" />
+              <h1>Comerciales y Deportivos</h1>
+              <span>
+                House Facility proporciona servicios especializados para centros
+                comerciales y centros deportivos, ofreciendo soluciones
+                integradas que promueven la eficiencia operativa, la seguridad y
+                la satisfacción de los usuarios. Con nuestra experiencia y
+                enfoque en la sostenibilidad, ayudamos a transformar estos
+                espacios en entornos acogedores y bien cuidados que satisfacen
+                las necesidades de visitantes y empleados.
+              </span>
+            </CardSectoresyServicios>
+          </BottomSectoresyServicios>
+        </PageThree>
       </Content>
     </Container>
   );
