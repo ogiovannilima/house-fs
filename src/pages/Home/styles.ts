@@ -414,6 +414,7 @@ export const CardServicios = styled.div`
   @media (min-width: 481px) {
     // Para tablet
     max-width: 40vw;
+    position: relative;
 
     div,
     span {
@@ -423,7 +424,7 @@ export const CardServicios = styled.div`
 
     img {
       position: absolute;
-      right: 24rem;
+      right: 22rem;
     }
   }
 
@@ -434,9 +435,9 @@ export const CardServicios = styled.div`
 
     div {
       img {
-        width: 12rem;
+        width: 10vw;
         position: absolute;
-        right: 16rem;
+        right: 21rem;
         top: -5rem;
       }
 
@@ -491,7 +492,7 @@ export const BoxServicios = styled.div`
 
   @media (min-width: 1025px) {
     // Para desktop
-    width: 90vw;
+    max-width: 90vw;
     margin: 0 auto;
     display: flex;
     justify-content: center;
