@@ -297,6 +297,7 @@ export const BottomSectoresyServicios = styled.div`
     max-width: 75vw;
     align-items: center;
     justify-content: space-between;
+    align-items: stretch;
   }
 `;
 
@@ -314,6 +315,7 @@ export const DescriptionSectoresyServicios = styled.div`
 
   @media (min-width: 481px) {
     // Para tablet
+    max-width: 30vw;
   }
 
   @media (min-width: 1025px) {
@@ -343,6 +345,9 @@ export const CardSectoresyServicios = styled.div`
 
   @media (min-width: 481px) {
     // Para tablet
+    max-width: 50vw;
+    flex: 1;
+    height: auto;
   }
 
   @media (min-width: 1025px) {

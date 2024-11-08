@@ -44,8 +44,12 @@ import {
   AirportImg,
   BagsImg,
   BooksImg,
+  HeartDocImg,
+  IndustryImg,
   LogoImg,
+  MoneyImg,
   PalaceImg,
+  TripImg,
   WomankidImg,
 } from "../../assets";
 
@@ -198,6 +202,78 @@ export function Home() {
               <img src={BagsImg} alt="Bags" />
               <h1>{textLanguage.sectors.commercial.title}</h1>
               <span>{textLanguage.sectors.commercial.description}</span>
+            </CardSectoresyServicios>
+          </BottomSectoresyServicios>
+        </PageThree>
+        <PageThree>
+          <TopSectoresyServicios>
+            <span>
+              <DescriptionSectoresyServicios>
+                Apostamos por las personas, la sostenibilidad, la tecnología e
+                innovacíon
+              </DescriptionSectoresyServicios>
+              <DescriptionSectoresyServicios>
+                <span>Una empresa comprometida con la sociedad española.</span>
+              </DescriptionSectoresyServicios>
+            </span>
+          </TopSectoresyServicios>
+          <BottomSectoresyServicios>
+            <CardSectoresyServicios>
+              <img src={HeartDocImg} alt="Heart" />
+              <h1>hospitalario</h1>
+              <span>
+                House Facility ofrece servicios integrales y especializados para
+                el sector hospitalario, con un enfoque en la eficiencia, la
+                seguridad y la higiene de los espacios de atención médica.
+                Entendemos la importancia de un entorno hospitalario limpio,
+                seguro y bien cuidado, que cumpla con los más altos estándares
+                de calidad y contribuya al bienestar de pacientes, personal
+                médico y visitantes. Nuestras soluciones abarcan desde la
+                limpieza y desinfección hasta el mantenimiento de la
+                infraestructura y el cuidado de áreas verdes.
+              </span>
+            </CardSectoresyServicios>
+            <CardSectoresyServicios>
+              <img src={MoneyImg} alt="Money" />
+              <h1>bancario</h1>
+              <span>
+                House Facility ofrece servicios especializados para el sector
+                bancario, adaptados a las necesidades de seguridad, eficiencia y
+                presentación que requieren las entidades financieras. Con
+                nuestra experiencia en gestión de instalaciones, cuidamos cada
+                detalle de los entornos bancarios, desde el mantenimiento de
+                edificios y áreas verdes hasta la limpieza y conservación,
+                garantizando un espacio que refleje profesionalismo y confianza.
+              </span>
+            </CardSectoresyServicios>
+            <CardSectoresyServicios>
+              <img src={TripImg} alt="Trip" />
+              <h1>hoteleiro</h1>
+              <span>
+                House Facility ofrece servicios integrales de gestión de
+                instalaciones para el sector hotelero, enfocados en la
+                excelencia, la eficiencia y la satisfacción de los huéspedes.
+                Nuestra experiencia en el sector nos permite optimizar cada
+                espacio del hotel, desde el mantenimiento de las instalaciones y
+                la limpieza hasta la gestión de áreas verdes y estacionamientos.
+                Nos comprometemos a crear ambientes acogedores y funcionales que
+                mejoren la experiencia de los huéspedes y faciliten las
+                operaciones del equipo del hotel.
+              </span>
+            </CardSectoresyServicios>
+            <CardSectoresyServicios>
+              <img src={IndustryImg} alt="Industry" />
+              <h1>industrial</h1>
+              <span>
+                House Facility ofrece un conjunto completo de servicios
+                especializados para el sector industrial, diseñados para
+                optimizar la operación y el mantenimiento de plantas y
+                edificios, garantizando un entorno seguro, eficiente y
+                sostenible. Nuestra experiencia en el sector industrial nos
+                permite adaptar cada solución a las necesidades específicas de
+                cada instalación, desde el mantenimiento de infraestructuras y
+                equipos hasta la limpieza y gestión de áreas verdes.
+              </span>
             </CardSectoresyServicios>
           </BottomSectoresyServicios>
         </PageThree>
