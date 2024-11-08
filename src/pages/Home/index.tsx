@@ -44,6 +44,7 @@ import {
   TextServices,
   TitlePage,
   TitleServices,
+  TitleServicesCard,
   TopSectoresyServicios,
 } from "./styles";
 
@@ -314,7 +315,7 @@ export function Home() {
           <CardServices>
             <BoxIconTitle>
               <img src={ManLadderImg} alt="ManLadder" />
-              <TitleServices>Manitas a domicilo</TitleServices>
+              <TitleServicesCard>Manitas a domicilo</TitleServicesCard>
             </BoxIconTitle>
 
             <span>

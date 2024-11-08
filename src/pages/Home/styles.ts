@@ -362,7 +362,7 @@ export const PageFour = styled.section`
   padding-top: 2rem;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2.5rem;
 
   @media (min-width: 481px) {
     // Para tablet
@@ -424,6 +424,19 @@ export const CardServices = styled.div`
 
   @media (min-width: 481px) {
     // Para tablet
+    max-width: 450px;
+    position: relative;
+
+    span {
+      padding-left: 2rem;
+    }
+
+    img {
+      position: absolute;
+      width: 6rem;
+      top: -1rem;
+      right: 24rem;
+    }
   }
 
   @media (min-width: 1025px) {
@@ -436,4 +449,13 @@ export const BoxIconTitle = styled.div`
   align-items: center;
   gap: 1rem;
   padding-bottom: 1rem;
+`;
+
+export const TitleServicesCard = styled.div`
+  font-size: 1rem;
+  font-weight: 600;
+  font-style: normal;
+  @media (min-width: 481px) {
+    padding-left: 3rem;
+  }
 `;
