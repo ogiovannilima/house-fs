@@ -424,7 +424,7 @@ export const CardServices = styled.div`
     width: 4rem;
   }
 
-  @media (min-width: 481px) {
+  @media (min-width: 769px) {
     // Para tablet
     max-width: 450px;
     position: relative;
