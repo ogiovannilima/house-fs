@@ -7,6 +7,9 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 
+import { en } from "../../translations/en";
+import { es } from "../../translations/es";
+
 import {
   BackgroundImage,
   BottomSectoresyServicios,
@@ -58,10 +61,7 @@ export function Home() {
     setSelectedMenuItem(item);
   };
 
-  // useEffect(() => {
-  //   console.log(selectedLanguage);
-  //   console.log(selectedMenuItem);
-  // }, [selectedLanguage, selectedMenuItem]);
+  const textLanguage = selectedLanguage === "ES" ? es : en;
 
   return (
     <Container id="container">
@@ -95,25 +95,25 @@ export function Home() {
                 selected={selectedMenuItem === "HOME"}
                 onClick={() => handleMenuItemChange("HOME")}
               >
-                HOME
+                {textLanguage.menu.home}
               </MenuItem>
               <MenuItem
                 selected={selectedMenuItem === "SECTORES"}
                 onClick={() => handleMenuItemChange("SECTORES")}
               >
-                SECTORES
+                {textLanguage.menu.sectors}
               </MenuItem>
               <MenuItem
                 selected={selectedMenuItem === "SERVICES"}
                 onClick={() => handleMenuItemChange("SERVICES")}
               >
-                SERVICES
+                {textLanguage.menu.services}
               </MenuItem>
               <MenuItem
                 selected={selectedMenuItem === "CONTACT"}
                 onClick={() => handleMenuItemChange("CONTACT")}
               >
-                CONTACT
+                {textLanguage.menu.contact}
               </MenuItem>
             </Menu>
             <SocialBar>
@@ -133,38 +133,17 @@ export function Home() {
           </NavBar>
         </PageOne>
         <PageTwo>
-          <TitlePage>Nuestro Compromiso</TitlePage>
+          <TitlePage>{textLanguage.commitment.title}</TitlePage>
           <TextContainer>
-            <SubTitlePage>
-              Si combinamos la creatividad humana, la pasión y la experiencia
-              con lo mejor de la tecnología, podemos ir más allá. Algo que
-              impacte la vida de las personas y se sienta en el mundo a su
-              alrededor.
-            </SubTitlePage>
-            <SubTitlePage>Construyendo confianza, hoy y mañana.</SubTitlePage>
+            <SubTitlePage>{textLanguage.commitment.subtitle1}</SubTitlePage>
+            <SubTitlePage>{textLanguage.commitment.subtitle2}</SubTitlePage>
 
             <DescriptionPage>
-              En House Facility, entendemos la importancia de brindar un
-              servicio excepcional tanto a las aseguradoras como a sus
-              asegurados. Nuestra filosofía se basa en un servicio
-              personalizado, enfocado en la resolución eficiente y eficaz de
-              siniestros, garantizando así el más alto nivel de bienestar y
-              satisfacción para el asegurado. Este enfoque no solo mejora la
-              experiencia del cliente final, sino que también refuerza la
-              confianza y la lealtad hacia su aseguradora.
+              {textLanguage.commitment.description1}
             </DescriptionPage>
 
             <DescriptionPage>
-              Somos una empresa dedicada a la gestión de Facility Services, con
-              más de 15 años de experiencia y presencia consolidada en América
-              Latina y Asia. Nuestra misión es ofrecer soluciones integrales
-              para la gestión de siniestros, así como servicios de
-              mantenimiento, limpieza, seguridad, eficiencia energética, gestión
-              de residuos y otros servicios esenciales para el buen
-              funcionamiento de los espacios. Nos enfocamos en la
-              sostenibilidad, alineándonos con los principios de ESG (Ambiental,
-              Social y Gobernanza), y garantizamos entornos que promuevan el
-              bienestar y la seguridad de las personas.
+              {textLanguage.commitment.description2}
             </DescriptionPage>
           </TextContainer>
 
@@ -172,98 +151,53 @@ export function Home() {
             <TextQuoteItem>
               <QuoteBar />
               <span>
-                <QuoteTitle>Misión</QuoteTitle>
-                Ofrecer soluciones completas e innovadoras en gestión de
-                facilidades, promoviendo entornos saludables y sostenibles para
-                personas y empresas, gobierno, espacios corporativos y
-                comerciales, aeropuertos, industriales y residenciales.
+                <QuoteTitle>{textLanguage.mission.title}</QuoteTitle>
+                {textLanguage.mission.description}
               </span>
             </TextQuoteItem>
             <TextQuoteItem>
               <QuoteBar />
               <span>
-                <QuoteTitle>Visión</QuoteTitle>
-                Ser reconocidos como una empresa líder en Facility services,
-                comprometida con la excelencia, la innovación y el impacto
-                positivo en el medioambiente y la sociedad.
+                <QuoteTitle>{textLanguage.vision.title}</QuoteTitle>
+                {textLanguage.vision.description}
               </span>
             </TextQuoteItem>
           </TextQuoteBox>
         </PageTwo>
         <PageThree>
-          <TitlePage>Sectores y Servicios</TitlePage>
+          <TitlePage>{textLanguage.sectors.title}</TitlePage>
           <TopSectoresyServicios>
             <span>
               <DescriptionSectoresyServicios>
-                Con un equipo altamente preparado y cualificado, House Facility
-                ofrece una cobertura integral para atender llamados de
-                siniestros en casi todas las provincias de España.
+                {textLanguage.sectors.description1}
               </DescriptionSectoresyServicios>
               <DescriptionSectoresyServicios>
-                <span>
-                  Nuestra labor abarca diversos sectores, desde residencias y
-                  comunidades hasta comercios y grandes instalaciones, siempre
-                  con la eficiencia y el profesionalismo que caracterizan
-                  nuestro trabajo.
-                </span>
+                <span>{textLanguage.sectors.description2}</span>
               </DescriptionSectoresyServicios>
             </span>
 
             <CardSectoresyServicios>
               <img src={BooksImg} alt="Books" />
-              <h1>Educativo</h1>
-              <span>
-                House Facility ofrece servicios integrales adaptados a las
-                necesidades de instituciones educativas, con el objetivo de
-                crear entornos seguros, organizados y acogedores que promuevan
-                el aprendizaje y el bienestar de estudiantes, docentes y
-                personal administrativo. Nos enfocamos en la gestión completa de
-                instalaciones educativas, desde la recepción y atención al
-                público hasta el mantenimiento y la limpieza de los espacios,
-                asegurando una operación eficiente y responsable.
-              </span>
+              <h1>{textLanguage.sectors.educational.title}</h1>
+              <span>{textLanguage.sectors.educational.description}</span>
             </CardSectoresyServicios>
           </TopSectoresyServicios>
 
           <BottomSectoresyServicios>
             <CardSectoresyServicios>
               <img src={PalaceImg} alt="Palace" />
-              <h1>Sector Público</h1>
-              <span>
-                En House Facility, ofrecemos un conjunto completo de servicios
-                orientados al sector público, con el objetivo de mejorar la
-                eficiencia, la sostenibilidad y el bienestar de los espacios
-                públicos. Nuestra labor abarca desde la recepción y atención al
-                público hasta la gestión de obras y estacionamientos, con un
-                compromiso constante en la preservación del patrimonio y en la
-                garantía de entornos seguros y funcionales.
-              </span>
+              <h1>{textLanguage.sectors.public.title}</h1>
+              <span>{textLanguage.sectors.public.description}</span>
             </CardSectoresyServicios>
             <CardSectoresyServicios>
               <img src={AirportImg} alt="Airport" />
-              <h1>Aeroportuario</h1>
-              <span>
-                House Facility ofrece soluciones integradas y personalizadas
-                para el sector aeroportuario, enfocadas en la eficiencia, la
-                seguridad y el bienestar de pasajeros y empleados. Con un equipo
-                especializado y tecnologías avanzadas, nuestro objetivo es
-                proporcionar un entorno aeroportuario que garantice la comodidad
-                y satisfacción de todos los usuarios, optimizando la operación
-                de cada espacio.
-              </span>
+              <h1>{textLanguage.sectors.airport.title}</h1>
+              <span>{textLanguage.sectors.airport.description}</span>
             </CardSectoresyServicios>
             <CardSectoresyServicios>
               <img src={BagsImg} alt="Bags" />
-              <h1>Comerciales y Deportivos</h1>
-              <span>
-                House Facility proporciona servicios especializados para centros
-                comerciales y centros deportivos, ofreciendo soluciones
-                integradas que promueven la eficiencia operativa, la seguridad y
-                la satisfacción de los usuarios. Con nuestra experiencia y
-                enfoque en la sostenibilidad, ayudamos a transformar estos
-                espacios en entornos acogedores y bien cuidados que satisfacen
-                las necesidades de visitantes y empleados.
-              </span>
+              <h1>{textLanguage.sectors.commercial.title}</h1>
+              <span>{textLanguage.sectors.commercial.description}</span>
             </CardSectoresyServicios>
           </BottomSectoresyServicios>
         </PageThree>
