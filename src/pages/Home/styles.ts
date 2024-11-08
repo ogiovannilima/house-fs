@@ -292,6 +292,8 @@ export const BottomSectoresyServicios = styled.div`
     flex-direction: row;
     gap: 2rem;
     align-items: stretch;
+    flex-wrap: wrap;
+    ///aqui
   }
 
   @media (min-width: 1025px) {
