@@ -355,3 +355,146 @@ export const CardSectoresyServicios = styled.div`
     max-width: 40vw;
   }
 `;
+
+export const PageFour = styled.section`
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  @media (min-width: 481px) {
+    // Para tablet
+  }
+
+  @media (min-width: 1025px) {
+    // Para desktop
+  }
+`;
+
+export const BoxTextButtonServices = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  padding-bottom: 1rem;
+
+  @media (min-width: 481px) {
+    // Para tablet
+  }
+
+  @media (min-width: 1025px) {
+    // Para desktop
+    max-width: 42vw;
+  }
+`;
+
+export const CardServicios = styled.div`
+  background-color: #f4f4f4;
+  border-radius: 1rem;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  span {
+    font-size: 0.8rem;
+  }
+  div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    img {
+      width: 5rem;
+    }
+  }
+
+  @media (min-width: 481px) {
+    // Para tablet
+    max-width: 40vw;
+
+    div,
+    span {
+      padding-left: 1.5rem;
+      font-size: 0.875rem;
+    }
+
+    img {
+      position: absolute;
+      right: 24rem;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    // Para desktop
+    max-width: 25vw;
+    position: relative;
+
+    div {
+      img {
+        width: 12rem;
+        position: absolute;
+        right: 16rem;
+        top: -5rem;
+      }
+
+      div {
+        padding-left: 3rem;
+      }
+    }
+  }
+`;
+
+export const SpecialistButtonContact = styled.button`
+  text-transform: uppercase;
+  background-color: #009a57;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  max-width: 70vw;
+  border: none;
+  cursor: pointer;
+
+  @media (min-width: 481px) {
+    // Para tablet
+  }
+
+  @media (min-width: 1025px) {
+    // Para desktop
+  }
+`;
+
+export const ServiciosTitle = styled.div`
+  padding: 0 0 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  font-style: normal;
+
+  @media (min-width: 481px) {
+    padding: 0 0 0.5rem 0;
+  }
+
+  @media (min-width: 1025px) {
+    padding: 0 0 0.5rem 7.5rem;
+  }
+`;
+
+export const BoxServicios = styled.div`
+  @media (min-width: 481px) {
+    // Para tablet
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  @media (min-width: 1025px) {
+    // Para desktop
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+  }
+`;

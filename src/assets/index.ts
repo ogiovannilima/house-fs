@@ -8,3 +8,4 @@ export { default as IndustryImg } from "./industry.svg";
 export { default as PalaceImg } from "./palace.svg";
 export { default as MoneyImg } from "./money.svg";
 export { default as TripImg } from "./trip.svg";
+export { default as ManLadderImg } from "./man-ladder.svg";
