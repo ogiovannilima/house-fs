@@ -320,6 +320,7 @@ export function Home() {
 
             <span>
               Servicios de bricolaje para colgar cuadros, cortinas o lámparas.
+              <br />
               Nuestros manitas también pueden montar muebles, colocar baldas o
               instalar accesorios de baño
               <br />

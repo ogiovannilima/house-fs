@@ -373,6 +373,10 @@ export const PageFour = styled.section`
 
   @media (min-width: 1025px) {
     // Para desktop
+    justify-content: center;
+    max-width: 1845px;
+    margin: 0 auto;
+    gap: 15rem;
   }
 `;
 
@@ -389,12 +393,17 @@ export const BoxTextServices = styled.div`
 
   @media (min-width: 1025px) {
     // Para desktop
+    max-width: 620px;
   }
 `;
 
 export const TextServices = styled.div`
   font-size: 1rem;
   font-weight: 400;
+
+  @media (min-width: 1025px) {
+    // Para desktop
+  }
 `;
 
 export const TitleServices = styled.div`
@@ -424,7 +433,7 @@ export const CardServices = styled.div`
     width: 4rem;
   }
 
-  @media (min-width: 769px) {
+  @media (min-width: 481px) {
     // Para tablet
     max-width: 450px;
     position: relative;
@@ -443,6 +452,18 @@ export const CardServices = styled.div`
 
   @media (min-width: 1025px) {
     // Para desktop
+    max-width: 500px;
+    position: relative;
+
+    span {
+      padding-left: 5rem;
+    }
+
+    img {
+      position: absolute;
+      width: 12rem;
+      right: 25rem;
+    }
   }
 `;
 
@@ -457,7 +478,12 @@ export const TitleServicesCard = styled.div`
   font-size: 1rem;
   font-weight: 600;
   font-style: normal;
+
   @media (min-width: 481px) {
     padding-left: 3rem;
+  }
+
+  @media (min-width: 1025px) {
+    padding-left: 5rem;
   }
 `;
