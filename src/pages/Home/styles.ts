@@ -401,6 +401,10 @@ export const TextServices = styled.div`
   font-size: 1rem;
   font-weight: 400;
 
+  span {
+    font-weight: 600;
+  }
+
   @media (min-width: 1025px) {
     // Para desktop
   }
@@ -419,6 +423,7 @@ export const SpecialistButton = styled.button`
   border: 0;
   padding: 0.5rem 1rem;
   max-width: 13rem;
+  height: 2rem;
 `;
 
 export const CardServices = styled.div`
@@ -485,5 +490,30 @@ export const TitleServicesCard = styled.div`
 
   @media (min-width: 1025px) {
     padding-left: 5rem;
+  }
+`;
+
+export const BoxFlexServices = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+`;
+
+export const BoxFlexServicesRow = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+
+  @media (min-width: 481px) {
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  @media (min-width: 1025px) {
+    gap: 15rem;
   }
 `;

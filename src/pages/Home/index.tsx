@@ -13,6 +13,8 @@ import { es } from "../../translations/es";
 import {
   BackgroundImage,
   BottomSectoresyServicios,
+  BoxFlexServices,
+  BoxFlexServicesRow,
   BoxIconTitle,
   BoxTextServices,
   CardSectoresyServicios,
@@ -339,6 +341,124 @@ export function Home() {
               <b>cualquier arreglo a domicilio que necesites.</b>
             </span>
           </CardServices>
+        </PageFour>
+
+        <PageFour>
+          <BoxFlexServices>
+            <BoxFlexServicesRow>
+              <BoxTextServices>
+                <TitleServices>De la estrategia a los resultados</TitleServices>
+                <TextServices>
+                  <span>
+                    House Facility Más que un socio, la elección confiable para
+                    aseguradoras y gestoras de siniestros.
+                  </span>
+                  <br />
+                  <br />
+                  Pocas organizaciones tienen la capacidad de ofrecer la
+                  variedad y, especialmente, la calidad de los servicios que
+                  nosotros ofrecemos, con el compromiso absoluto de nuestro
+                  propio personal.
+                </TextServices>
+              </BoxTextServices>
+
+              <CardServices>
+                <BoxIconTitle>
+                  <img src={ManLadderImg} alt="ManLadder" />
+                  <TitleServicesCard>Eletricista</TitleServicesCard>
+                </BoxIconTitle>
+
+                <span>
+                  Nuestros electricistas son expertos en reparaciones eléctricas
+                  o instalaciones. Llámanos para realizar el mantenimiento o
+                  revisión de la instalación eléctrica de tu hogar. Los
+                  electricistas a domicilio de House facility están disponibles
+                  las 24 horas del día para realizar tareas urgentes, así como
+                  para electricidad básica llevada a cabo por los instaladores
+                  eléctricos.
+                  <br />
+                  Confía en los electricistas 24 horas de House facility para
+                  cambiar enchufes, hacer rozas, reparar timbres, instalar
+                  lámparas, halógenos o downlights. Contamos con electricistas
+                  autorizados para realizar la emisión oficial de boletines
+                  eléctricos y certificados de instalaciones eléctricas para tu
+                  total tranquilidad.
+                  <br />
+                  Cubrimos todas las Comunidades Autónomas para los montajes
+                  eléctricos y tareas de electricidad! El mejor electricista en
+                  el que confiar, con la garantía y seguridad de una gran marca
+                  como House facility.
+                </span>
+              </CardServices>
+            </BoxFlexServicesRow>
+
+            <BoxFlexServicesRow>
+              <CardServices>
+                <BoxIconTitle>
+                  <img src={ManLadderImg} alt="ManLadder" />
+                  <TitleServicesCard>Pintura</TitleServicesCard>
+                </BoxIconTitle>
+
+                <span>
+                  Servicios de pintura para pisos, casas y locales. Realizamos
+                  trabajos de alisado y lijado de paredes, gotelé, lacado de
+                  puertas y pinturas decorativas.
+                  <br />
+                  Servicios de pintura con los mejores expertos en pintar
+                  paredes y techos de habitaciones o pisos. Además nuestros
+                  profesionales están especializados en alisar o quitar gotelé,
+                  lijado de paredes, lacado de puertas y pintura decorativa para
+                  todo tipo de superficies.
+                </span>
+              </CardServices>
+
+              <SpecialistButton>Habla con un especialista</SpecialistButton>
+            </BoxFlexServicesRow>
+
+            <CardServices>
+              <BoxIconTitle>
+                <img src={ManLadderImg} alt="ManLadder" />
+                <TitleServicesCard>Fontanero</TitleServicesCard>
+              </BoxIconTitle>
+
+              <span>
+                Servicios de pintura para pisos, casas y locales. Realizamos
+                trabajos de alisado y lijado de paredes, gotelé, lacado de
+                puertas y pinturas decorativas.
+                <br />
+                Servicios de pintura con los mejores expertos en pintar paredes
+                y techos de habitaciones o pisos. Además nuestros profesionales
+                están especializados en alisar o quitar gotelé, lijado de
+                paredes, lacado de puertas y pintura decorativa para todo tipo
+                de superficies.
+              </span>
+            </CardServices>
+
+            <BoxFlexServicesRow>
+              <SpecialistButton>Habla con un especialista</SpecialistButton>
+
+              <CardServices>
+                <BoxIconTitle>
+                  <img src={ManLadderImg} alt="ManLadder" />
+                  <TitleServicesCard>
+                    iLijado y barnizado de parquets
+                  </TitleServicesCard>
+                </BoxIconTitle>
+
+                <span>
+                  Servicios de pintura para pisos, casas y locales. Realizamos
+                  trabajos de alisado y lijado de paredes, gotelé, lacado de
+                  puertas y pinturas decorativas.
+                  <br />
+                  Servicios de pintura con los mejores expertos en pintar
+                  paredes y techos de habitaciones o pisos. Además nuestros
+                  profesionales están especializados en alisar o quitar gotelé,
+                  lijado de paredes, lacado de puertas y pintura decorativa para
+                  todo tipo de superficies.
+                </span>
+              </CardServices>
+            </BoxFlexServicesRow>
+          </BoxFlexServices>
         </PageFour>
       </Content>
     </Container>
