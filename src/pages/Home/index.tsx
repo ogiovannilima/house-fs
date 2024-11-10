@@ -5,6 +5,7 @@ import {
   FaTwitter,
   FaFacebookF,
   FaLinkedin,
+  FaWhatsapp,
 } from "react-icons/fa";
 
 import { en } from "../../translations/en";
@@ -59,6 +60,7 @@ import {
   TitleServices,
   TitleServicesCard,
   TopSectoresyServicios,
+  WhatsAppButton,
 } from "./styles";
 
 import {
@@ -550,6 +552,13 @@ export function Home() {
           </CopyRightText>
         </ContactPage>
       </Content>
+      <WhatsAppButton
+        href="https://wa.me/+34666081364"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaWhatsapp />
+      </WhatsAppButton>
     </Container>
   );
 }

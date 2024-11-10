@@ -692,3 +692,30 @@ export const CopyRightText = styled.div`
   font-size: 0.625rem;
   text-align: center;
 `;
+
+export const WhatsAppButton = styled.a`
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #25d366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  z-index: 1000;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  svg {
+    width: 30px;
+    height: 30px;
+  }
+`;
