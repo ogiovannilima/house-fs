@@ -73,9 +73,12 @@ export const MenuItem = styled.div<{ selected?: boolean }>`
 export const SocialBar = styled.div`
   display: flex;
   gap: 1rem;
+  z-index: 999;
 `;
 
 export const SocialBarItem = styled.div`
+  z-index: 999;
+  cursor: pointer;
   svg {
     fill: green;
     width: 1.5rem;

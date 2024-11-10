@@ -98,6 +98,8 @@ export function Home() {
         ? "services-section"
         : item === "CONTACT"
         ? "contact-section"
+        : item === "HOME"
+        ? "container"
         : ""
     );
 
@@ -115,6 +117,21 @@ export function Home() {
       message
     )}`;
     window.open(whatsappUrl, "_blank");
+  };
+
+  const handleSocialMediaClick = (
+    platform: "instagram" | "twitter" | "facebook" | "linkedin"
+  ) => {
+    const socialMediaUrls = {
+      instagram: "https://www.instagram.com/housefacilityservice",
+      twitter: "https://twitter.com/house_facility",
+      facebook:
+        "https://www.facebook.com/people/House-Facility-Service/61568575944526/",
+      linkedin:
+        "https://www.linkedin.com/company/house-facility-service/?viewAsMember=true",
+    };
+
+    window.open(socialMediaUrls[platform], "_blank");
   };
 
   return (
@@ -171,16 +188,18 @@ export function Home() {
               </MenuItem>
             </Menu>
             <SocialBar>
-              <SocialBarItem>
+              <SocialBarItem
+                onClick={() => handleSocialMediaClick("instagram")}
+              >
                 <FaInstagram />
               </SocialBarItem>
-              <SocialBarItem>
+              <SocialBarItem onClick={() => handleSocialMediaClick("twitter")}>
                 <FaTwitter />
               </SocialBarItem>
-              <SocialBarItem>
+              <SocialBarItem onClick={() => handleSocialMediaClick("facebook")}>
                 <FaFacebookF />
               </SocialBarItem>
-              <SocialBarItem>
+              <SocialBarItem onClick={() => handleSocialMediaClick("linkedin")}>
                 <FaLinkedin />
               </SocialBarItem>
             </SocialBar>
@@ -451,24 +470,40 @@ export function Home() {
           <Footer>
             <img src={WhiteLogoImg} alt="Logo" />
             <FooterMenu>
-              <span>{textLanguage.menu.home}</span>
-              <span>{textLanguage.menu.sectors}</span>
-              <span>{textLanguage.menu.services}</span>
-              <span>{textLanguage.menu.contact}</span>
+              <span onClick={() => handleMenuItemChange("HOME")}>
+                {textLanguage.menu.home}
+              </span>
+              <span onClick={() => handleMenuItemChange("SECTORES")}>
+                {textLanguage.menu.sectors}
+              </span>
+              <span onClick={() => handleMenuItemChange("SERVICES")}>
+                {textLanguage.menu.services}
+              </span>
+              <span onClick={() => handleMenuItemChange("CONTACT")}>
+                {textLanguage.menu.contact}
+              </span>
             </FooterMenu>
 
             <SocialBar>
               <SocialBar>
-                <SocialBarItem>
+                <SocialBarItem
+                  onClick={() => handleSocialMediaClick("instagram")}
+                >
                   <FaInstagram />
                 </SocialBarItem>
-                <SocialBarItem>
+                <SocialBarItem
+                  onClick={() => handleSocialMediaClick("twitter")}
+                >
                   <FaTwitter />
                 </SocialBarItem>
-                <SocialBarItem>
+                <SocialBarItem
+                  onClick={() => handleSocialMediaClick("facebook")}
+                >
                   <FaFacebookF />
                 </SocialBarItem>
-                <SocialBarItem>
+                <SocialBarItem
+                  onClick={() => handleSocialMediaClick("linkedin")}
+                >
                   <FaLinkedin />
                 </SocialBarItem>
               </SocialBar>
