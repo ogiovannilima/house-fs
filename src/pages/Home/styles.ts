@@ -519,6 +519,7 @@ export const BoxFlexServicesRow = styled.div`
 `;
 
 export const ContactPage = styled.section`
+  margin-top: 1rem;
   padding: 2rem 0;
   display: flex;
   flex-direction: column;
@@ -591,6 +592,7 @@ export const PrivacyInfos = styled.div`
 
 export const DividerFooter = styled.div`
   border: 1px solid #fff;
+  width: 100%;
 `;
 
 export const Footer = styled.div`

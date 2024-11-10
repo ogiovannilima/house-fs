@@ -513,6 +513,7 @@ export function Home() {
             <span>Términos y Condiciones de Uso</span>
           </PrivacyInfos>
           <DividerFooter />
+
           <Footer>
             <img src={WhiteLogoImg} alt="Logo" />
             <FooterMenu>
@@ -538,6 +539,7 @@ export function Home() {
                 </SocialBarItem>
               </SocialBar>
             </SocialBar>
+            <DividerFooter />
 
             <CopyRightText>
               Todas las marcas comerciales, logotipos y marcas de servicio
