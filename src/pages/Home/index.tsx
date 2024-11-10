@@ -93,6 +93,15 @@ export function Home() {
 
   const textLanguage = selectedLanguage === "ES" ? es : en;
 
+  const handleWhatsApp = () => {
+    const phoneNumber = "+34666081364";
+    const message = "Hola, me gustaría hablar con un especialista."; // Optional default message
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(whatsappUrl, "_blank");
+  };
+
   return (
     <Container id="container">
       <Content id="content">
@@ -326,7 +335,9 @@ export function Home() {
               que buscan eficiencia, profesionalismo y la tranquilidad de sus
               asegurados.
             </TextServices>
-            <SpecialistButton>Habla con un especialista</SpecialistButton>
+            <SpecialistButton onClick={handleWhatsApp}>
+              Habla con un especialista
+            </SpecialistButton>
           </BoxTextServices>
 
           <CardServices>
@@ -427,7 +438,9 @@ export function Home() {
                 </span>
               </CardServices>
 
-              <SpecialistButton>Habla con un especialista</SpecialistButton>
+              <SpecialistButton onClick={handleWhatsApp}>
+                Habla con un especialista
+              </SpecialistButton>
             </BoxFlexServicesRow>
 
             <CardServices>
@@ -453,7 +466,9 @@ export function Home() {
             </CardServices>
 
             <BoxFlexServicesRow>
-              <SpecialistButton>Habla con un especialista</SpecialistButton>
+              <SpecialistButton onClick={handleWhatsApp}>
+                Habla con un especialista
+              </SpecialistButton>
 
               <CardServices>
                 <BoxIconTitle>
@@ -488,7 +503,9 @@ export function Home() {
         <ContactPage>
           <ContactHeader>
             <ContactTitle>¿Trabajamos juntos?</ContactTitle>
-            <SpecialistButton>Habla con un especialista</SpecialistButton>
+            <SpecialistButton onClick={handleWhatsApp}>
+              Habla con un especialista
+            </SpecialistButton>
           </ContactHeader>
           <ContactText>
             House Facility extiende sus servicios a toda España, ofreciendo
@@ -552,11 +569,7 @@ export function Home() {
           </CopyRightText>
         </ContactPage>
       </Content>
-      <WhatsAppButton
-        href="https://wa.me/+34666081364"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <WhatsAppButton onClick={handleWhatsApp}>
         <FaWhatsapp />
       </WhatsAppButton>
     </Container>

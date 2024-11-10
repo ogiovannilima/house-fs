@@ -425,6 +425,7 @@ export const SpecialistButton = styled.button`
   padding: 0.5rem 1rem;
   max-width: 13rem;
   height: 2rem;
+  cursor: pointer;
 `;
 
 export const CardServices = styled.div`
