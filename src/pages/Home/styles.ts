@@ -544,6 +544,9 @@ export const ContactHeader = styled.div`
 
   @media (min-width: 481px) {
     // Para tablet
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 1rem;
   }
 
   @media (min-width: 1025px) {
@@ -554,17 +557,49 @@ export const ContactTitle = styled.div`
   font-size: 1rem;
   letter-spacing: 0.5rem;
   color: #fff;
+
+  @media (min-width: 481px) {
+    // Para tablet
+    font-size: 2rem;
+  }
+
+  @media (min-width: 1025px) {
+    // Para desktop
+  }
 `;
 
 export const ContactText = styled.div`
   color: #fff;
   padding: 0 1rem;
+
+  @media (min-width: 481px) {
+    // Para tablet
+    max-width: 60vw;
+  }
+
+  @media (min-width: 1025px) {
+    // Para desktop
+  }
 `;
 export const ContactBoxLocal = styled.div`
   display: flex;
 
   img {
     width: 35vw;
+  }
+
+  @media (min-width: 481px) {
+    // Para tablet
+    justify-content: space-between;
+    padding: 0 1rem 0 0;
+
+    img {
+      width: 15vw;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    // Para desktop
   }
 `;
 
@@ -588,6 +623,18 @@ export const PrivacyInfos = styled.div`
     color: #fff;
     font-size: 0.8rem;
   }
+
+  @media (min-width: 481px) {
+    // Para tablet
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 1rem;
+    gap: 2rem;
+  }
+
+  @media (min-width: 1025px) {
+    // Para desktop
+  }
 `;
 
 export const DividerFooter = styled.div`
@@ -607,6 +654,15 @@ export const Footer = styled.div`
 
   svg {
     fill: #fff;
+  }
+
+  @media (min-width: 481px) {
+    // Para tablet
+    flex-direction: row;
+  }
+
+  @media (min-width: 1025px) {
+    // Para desktop
   }
 `;
 

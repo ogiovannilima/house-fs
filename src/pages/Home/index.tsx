@@ -539,16 +539,15 @@ export function Home() {
                 </SocialBarItem>
               </SocialBar>
             </SocialBar>
-            <DividerFooter />
-
-            <CopyRightText>
-              Todas las marcas comerciales, logotipos y marcas de servicio
-              (colectivamente «Marcas Comerciales») mostradas son marcas
-              registradas y/o marcas comerciales de sus respectivos
-              propietarios.www.housefacility.com © 2024 - Todos los derechos
-              reservados.
-            </CopyRightText>
           </Footer>
+          <DividerFooter />
+          <CopyRightText>
+            Todas las marcas comerciales, logotipos y marcas de servicio
+            (colectivamente «Marcas Comerciales») mostradas son marcas
+            registradas y/o marcas comerciales de sus respectivos
+            propietarios.www.housefacility.com © 2024 - Todos los derechos
+            reservados.
+          </CopyRightText>
         </ContactPage>
       </Content>
     </Container>
