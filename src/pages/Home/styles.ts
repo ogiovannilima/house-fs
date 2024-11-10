@@ -528,6 +528,7 @@ export const ContactPage = styled.section`
 
   @media (min-width: 481px) {
     // Para tablet
+    padding: 2rem 5rem;
   }
 
   @media (min-width: 1025px) {
@@ -600,6 +601,9 @@ export const ContactBoxLocal = styled.div`
 
   @media (min-width: 1025px) {
     // Para desktop
+    img {
+      width: 10vw;
+    }
   }
 `;
 
@@ -659,10 +663,17 @@ export const Footer = styled.div`
   @media (min-width: 481px) {
     // Para tablet
     flex-direction: row;
+    img {
+      width: 30vw;
+    }
   }
 
   @media (min-width: 1025px) {
     // Para desktop
+
+    img {
+      width: 15vw;
+    }
   }
 `;
 
