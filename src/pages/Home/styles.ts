@@ -369,6 +369,7 @@ export const PageFour = styled.section`
   @media (min-width: 481px) {
     // Para tablet
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   @media (min-width: 1025px) {
@@ -471,7 +472,6 @@ export const CardServices = styled.div`
     }
   }
 `;
-
 export const BoxIconTitle = styled.div`
   display: flex;
   align-items: center;
@@ -516,4 +516,110 @@ export const BoxFlexServicesRow = styled.div`
   @media (min-width: 1025px) {
     gap: 15rem;
   }
+`;
+
+export const ContactPage = styled.section`
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #333333;
+  gap: 1rem;
+
+  @media (min-width: 481px) {
+    // Para tablet
+  }
+
+  @media (min-width: 1025px) {
+    // Para desktop
+  }
+`;
+
+export const ContactHeader = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+
+  @media (min-width: 481px) {
+    // Para tablet
+  }
+
+  @media (min-width: 1025px) {
+    // Para desktop
+  }
+`;
+export const ContactTitle = styled.div`
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
+  color: #fff;
+`;
+
+export const ContactText = styled.div`
+  color: #fff;
+  padding: 0 1rem;
+`;
+export const ContactBoxLocal = styled.div`
+  display: flex;
+
+  img {
+    width: 35vw;
+  }
+`;
+
+export const ContactLocal = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  padding: 1rem 1rem;
+
+  color: #fff;
+  font-size: 1rem;
+`;
+
+export const PrivacyInfos = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 1rem 0 0 1rem;
+
+  span {
+    color: #fff;
+    font-size: 0.8rem;
+  }
+`;
+
+export const DividerFooter = styled.div`
+  border: 1px solid #fff;
+`;
+
+export const Footer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  img {
+    width: 40vw;
+  }
+
+  svg {
+    fill: #fff;
+  }
+`;
+
+export const FooterMenu = styled.div`
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+
+  span {
+    color: #fff;
+  }
+`;
+
+export const CopyRightText = styled.div`
+  color: #fff;
+  font-size: 0.625rem;
+  text-align: center;
 `;

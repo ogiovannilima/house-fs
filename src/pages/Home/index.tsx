@@ -19,10 +19,20 @@ import {
   BoxTextServices,
   CardSectoresyServicios,
   CardServices,
+  ContactBoxLocal,
+  ContactHeader,
+  ContactLocal,
+  ContactPage,
+  ContactText,
+  ContactTitle,
   Container,
   Content,
+  CopyRightText,
   DescriptionPage,
   DescriptionSectoresyServicios,
+  DividerFooter,
+  Footer,
+  FooterMenu,
   ImageWrapper,
   LanguageMenu,
   LanguageMenuItem,
@@ -34,6 +44,7 @@ import {
   PageOne,
   PageThree,
   PageTwo,
+  PrivacyInfos,
   QuoteBar,
   QuoteTitle,
   SocialBar,
@@ -57,10 +68,12 @@ import {
   HeartDocImg,
   IndustryImg,
   LogoImg,
+  MadridLogoImg,
   ManLadderImg,
   MoneyImg,
   PalaceImg,
   TripImg,
+  WhiteLogoImg,
   WomankidImg,
 } from "../../assets";
 
@@ -422,15 +435,18 @@ export function Home() {
               </BoxIconTitle>
 
               <span>
-                Servicios de pintura para pisos, casas y locales. Realizamos
-                trabajos de alisado y lijado de paredes, gotelé, lacado de
-                puertas y pinturas decorativas.
+                Nuestros profesionales son expertos en fontanería y están
+                especializados en todo tipo de reparaciones como desatrancos,
+                desatascar tuberías o desagües, arreglar grifos, reparar fugas
+                de agua, instalaciones de fontanería, cambiar radiadores o
+                encontrar soluciones para eliminar humedades y goteras. Pero no
+                te preocupes si no encentras lo que necesitas, los fontaneros de
+                House facility de adaptan a tus necesidades.
                 <br />
-                Servicios de pintura con los mejores expertos en pintar paredes
-                y techos de habitaciones o pisos. Además nuestros profesionales
-                están especializados en alisar o quitar gotelé, lijado de
-                paredes, lacado de puertas y pintura decorativa para todo tipo
-                de superficies.
+                <br />
+                Ofrecemos servicios de fontaneros las 24 horas los 365 días de
+                año en todas las Comunidades Autónomas, para servicios de
+                urgencias de fontanería.
               </span>
             </CardServices>
 
@@ -446,20 +462,92 @@ export function Home() {
                 </BoxIconTitle>
 
                 <span>
-                  Servicios de pintura para pisos, casas y locales. Realizamos
-                  trabajos de alisado y lijado de paredes, gotelé, lacado de
-                  puertas y pinturas decorativas.
+                  El servicio de lijado y barnizado de parquets de House
+                  facility es una opción crucial para mantener la belleza y
+                  durabilidad de tus suelos de madera. El lijado elimina
+                  imperfecciones, marcas y desgaste superficial, preparando la
+                  superficie para recibir una capa de barniz protector que
+                  realza la veta de la madera y la protege contra daños futuros.
                   <br />
-                  Servicios de pintura con los mejores expertos en pintar
-                  paredes y techos de habitaciones o pisos. Además nuestros
-                  profesionales están especializados en alisar o quitar gotelé,
-                  lijado de paredes, lacado de puertas y pintura decorativa para
-                  todo tipo de superficies.
+                  <br />
+                  Se recomienda realizar este proceso cada 5-10 años,
+                  dependiendo del tráfico y uso. Nuestro equipo altamente
+                  capacitado utiliza maquinaria de precisión y productos de alta
+                  calidad para asegurar un acabado impecable.
+                  <br />
+                  <br />
+                  Así, tu parquet lucirá como nuevo y conservará su encanto por
+                  años.
                 </span>
               </CardServices>
             </BoxFlexServicesRow>
           </BoxFlexServices>
         </PageFour>
+        <ContactPage>
+          <ContactHeader>
+            <ContactTitle>¿Trabajamos juntos?</ContactTitle>
+            <SpecialistButton>Habla con un especialista</SpecialistButton>
+          </ContactHeader>
+          <ContactText>
+            House Facility extiende sus servicios a toda España, ofreciendo
+            soluciones de gestión de siniestros y mantenimiento para
+            aseguradoras, empresas y particulares en todo el país. Con un
+            enfoque en la calidad, la eficiencia y el cuidado del cliente,
+            estamos preparados para responder a las necesidades de nuestros
+            socios en cada rincón de España, garantizando resultados rápidos y
+            efectivos.
+          </ContactText>
+          <ContactBoxLocal>
+            <ContactLocal>
+              <span>Madri - España</span>
+              <span>holla@housefacility.es</span>
+              <span>+34 666 081 364</span>
+              <span>www.housefacility.es</span>
+            </ContactLocal>
+            <img src={MadridLogoImg} alt="Madrid" />
+          </ContactBoxLocal>
+
+          <PrivacyInfos>
+            <span>Declaración de Privacidad</span>
+            <span>Definiciones de Cookies</span>
+            <span>Términos y Condiciones de Uso</span>
+          </PrivacyInfos>
+          <DividerFooter />
+          <Footer>
+            <img src={WhiteLogoImg} alt="Logo" />
+            <FooterMenu>
+              <span>Home</span>
+              <span>Sectores</span>
+              <span>Servicios</span>
+              <span>Contacto</span>
+            </FooterMenu>
+
+            <SocialBar>
+              <SocialBar>
+                <SocialBarItem>
+                  <FaInstagram />
+                </SocialBarItem>
+                <SocialBarItem>
+                  <FaTwitter />
+                </SocialBarItem>
+                <SocialBarItem>
+                  <FaFacebookF />
+                </SocialBarItem>
+                <SocialBarItem>
+                  <FaLinkedin />
+                </SocialBarItem>
+              </SocialBar>
+            </SocialBar>
+
+            <CopyRightText>
+              Todas las marcas comerciales, logotipos y marcas de servicio
+              (colectivamente «Marcas Comerciales») mostradas son marcas
+              registradas y/o marcas comerciales de sus respectivos
+              propietarios.www.housefacility.com © 2024 - Todos los derechos
+              reservados.
+            </CopyRightText>
+          </Footer>
+        </ContactPage>
       </Content>
     </Container>
   );
