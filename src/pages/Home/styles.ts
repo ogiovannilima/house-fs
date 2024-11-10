@@ -544,6 +544,7 @@ export const ContactHeader = styled.div`
   align-items: center;
   gap: 1rem;
   padding-bottom: 1rem;
+  text-align: center;
 
   @media (min-width: 481px) {
     // Para tablet
