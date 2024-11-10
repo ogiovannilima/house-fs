@@ -89,6 +89,21 @@ export function Home() {
 
   const handleMenuItemChange = (item: string) => {
     setSelectedMenuItem(item);
+
+    // Add smooth scrolling behavior
+    const element = document.getElementById(
+      item === "SECTORES"
+        ? "sectors-section"
+        : item === "SERVICES"
+        ? "services-section"
+        : item === "CONTACT"
+        ? "contact-section"
+        : ""
+    );
+
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   const textLanguage = selectedLanguage === "ES" ? es : en;
@@ -203,7 +218,7 @@ export function Home() {
             </TextQuoteItem>
           </TextQuoteBox>
         </PageTwo>
-        <PageThree>
+        <PageThree id="sectors-section">
           <TitlePage>{textLanguage.sectors.title}</TitlePage>
           <TopSectoresyServicios>
             <span>
@@ -274,7 +289,7 @@ export function Home() {
             </CardSectoresyServicios>
           </BottomSectoresyServicios>
         </PageThree>
-        <PageFour>
+        <PageFour id="services-section">
           <BoxTextServices>
             <TitleServices>
               {textLanguage.services.insurance.title}
@@ -408,7 +423,7 @@ export function Home() {
             </BoxFlexServicesRow>
           </BoxFlexServices>
         </PageFour>
-        <ContactPage>
+        <ContactPage id="contact-section">
           <ContactHeader>
             <ContactTitle>{textLanguage.services.contact.title}</ContactTitle>
             <SpecialistButton onClick={handleWhatsApp}>
