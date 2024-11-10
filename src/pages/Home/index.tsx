@@ -95,7 +95,7 @@ export function Home() {
 
   const handleWhatsApp = () => {
     const phoneNumber = "+34666081364";
-    const message = "Hola, me gustaría hablar con un especialista."; // Optional default message
+    const message = "Hola, me gustaría hablar con un especialista.";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;

@@ -336,6 +336,7 @@ export const CardSectoresyServicios = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
+  gap: 0.5rem;
 
   h1 {
     font-size: 1rem;
