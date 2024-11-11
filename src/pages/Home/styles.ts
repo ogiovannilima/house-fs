@@ -628,6 +628,7 @@ export const PrivacyInfos = styled.div`
   flex-direction: column;
   gap: 0.3rem;
   padding: 1rem 0 0 1rem;
+  cursor: pointer;
 
   span {
     color: #fff;

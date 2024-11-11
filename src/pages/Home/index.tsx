@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 import {
   FaInstagram,
@@ -82,6 +83,7 @@ import {
 export function Home() {
   const [selectedLanguage, setSelectedLanguage] = useState<"ES" | "EN">("ES");
   const [selectedMenuItem, setSelectedMenuItem] = useState("HOME");
+  const navigate = useNavigate();
 
   const handleLanguageChange = (language: "ES" | "EN") => {
     setSelectedLanguage(language);
@@ -461,9 +463,15 @@ export function Home() {
           </ContactBoxLocal>
 
           <PrivacyInfos>
-            <span>{textLanguage.services.footer.privacy}</span>
-            <span>{textLanguage.services.footer.cookies}</span>
-            <span>{textLanguage.services.footer.terms}</span>
+            <span onClick={() => navigate("/privacy")}>
+              {textLanguage.services.footer.privacy}
+            </span>
+            <span onClick={() => navigate("/cookies")}>
+              {textLanguage.services.footer.cookies}
+            </span>
+            <span onClick={() => navigate("/terms")}>
+              {textLanguage.services.footer.terms}
+            </span>
           </PrivacyInfos>
           <DividerFooter />
 
