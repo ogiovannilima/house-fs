@@ -148,4 +148,245 @@ export const en = {
       specialist: "Talk to a specialist",
     },
   },
+  pages: {
+    terms: {
+      title: "Terms and Conditions of Use - House Facility",
+      sections: [
+        {
+          title: "1. Introduction",
+          content:
+            "Welcome to House Facility's website. By accessing and using our website, you accept the following terms and conditions of use. These terms apply to all users and visitors of House Facility's website. If you do not agree with these terms, please do not use our site.",
+        },
+        {
+          title: "2. Website Use",
+          content:
+            "House Facility's website is provided for informational purposes about our claims management, maintenance, and related services. You agree to use the website legally and respect the rights and security of other users.",
+        },
+        {
+          title: "3. Intellectual Property",
+          content:
+            "All website content, including texts, images, graphics, logos, and software, is the property of House Facility or its licensors and is protected by intellectual property laws. Copying, reproducing, distributing, or using the content without prior express authorization from House Facility is not permitted.",
+        },
+        {
+          title: "4. Service Information",
+          content:
+            "House Facility strives to keep its service information up-to-date and accurate. However, we do not guarantee that all information is completely accurate, complete, or error-free. We reserve the right to modify or update information about our services without prior notice.",
+        },
+        {
+          title: "5. Limitation of Liability",
+          content:
+            "House Facility will not be liable for direct, indirect, incidental, special, or consequential damages arising from the use or inability to use the website. We do not guarantee that the site is free from errors, viruses, or other harmful components, and you assume responsibility for any damage to your equipment or data loss resulting from using the site.",
+        },
+        {
+          title: "6. Third-Party Links",
+          content:
+            "Our site may contain links to third-party websites. These links are provided solely for your convenience and do not imply any endorsement or responsibility for the content of such sites. House Facility is not responsible for the privacy practices or content of linked websites.",
+        },
+        {
+          title: "7. Privacy and Personal Data",
+          content:
+            "House Facility is committed to protecting users' privacy and handling personal data in accordance with our Privacy Policy. By using our website, you accept the collection and use of your personal information in accordance with this policy.",
+        },
+        {
+          title: "8. Modification of Terms",
+          content:
+            "House Facility reserves the right to modify or update these terms and conditions at any time. Modifications will take effect upon posting on the website. It is recommended that you periodically review this page to stay informed of any changes.",
+        },
+        {
+          title: "9. Jurisdiction and Applicable Law",
+          content:
+            "These terms and conditions shall be governed by and construed in accordance with Spanish law. Any dispute arising from the use of House Facility's website shall be subject to the exclusive jurisdiction of Spanish courts.",
+        },
+        {
+          title: "10. Contact",
+          content:
+            "If you have any questions about these terms and conditions, please contact us through our website form or at the following email address: hello@housefacility.com",
+          footer:
+            "House Facility appreciates your visit to our site and your respect for these terms and conditions.",
+        },
+      ],
+    },
+    privacy: {
+      title: "Privacy Statement - House Facility",
+      sections: [
+        {
+          title: "1. Introduction",
+          content:
+            "At House Facility, we value your privacy and are committed to protecting the personal information you share with us. This Privacy Statement describes how we collect, use, and protect your information when you visit our website. By using our site, you accept the practices described in this statement.",
+        },
+        {
+          title: "2. Information We Collect",
+          content:
+            "We may collect and process the following types of personal information:",
+          subsections: [
+            {
+              title: "Contact Information:",
+              content:
+                "Name, email, phone number, and any other data you provide when completing contact or inquiry forms on our site.",
+            },
+            {
+              title: "Browsing Information:",
+              content:
+                "Data about your site visit, including IP address, browser type, pages visited, and browsing time. This is used to improve site functionality and experience.",
+            },
+          ],
+          footer:
+            "We do not collect sensitive personal information without your explicit consent.",
+        },
+        {
+          title: "3. Use of Information",
+          content:
+            "House Facility uses the collected information for the following purposes:",
+          subsections: [
+            {
+              title: "Provide and Improve Services:",
+              content:
+                "Process your inquiries, provide requested services, and improve our service offerings.",
+            },
+            {
+              title: "Communications:",
+              content:
+                "Send you updates, special offers, and relevant notifications about our services.",
+            },
+            {
+              title: "Website Improvement:",
+              content:
+                "Analyze site usage to improve functionality, content, and user experience.",
+            },
+          ],
+        },
+        {
+          title: "4. Information Sharing",
+          content:
+            "House Facility will not share your personal information with third parties, except in the following circumstances:",
+          subsections: [
+            {
+              title: "Service Providers:",
+              content:
+                "We may share your information with providers who help operate the website and provide services on our behalf, subject to strict confidentiality obligations.",
+            },
+            {
+              title: "Legal Compliance:",
+              content:
+                "We may disclose your information to comply with legal obligations or in response to governmental authority requests when necessary.",
+            },
+          ],
+        },
+        {
+          title: "5. Information Security",
+          content:
+            "House Facility implements technical and organizational security measures to protect your personal information against unauthorized access, loss, or destruction. While we work to protect your data, we cannot guarantee absolute security on the internet.",
+        },
+        {
+          title: "6. Data Retention",
+          content:
+            "We retain your personal information only for as long as necessary to fulfill the purposes for which it was collected, unless law requires or permits longer retention.",
+        },
+        {
+          title: "7. User Rights",
+          content:
+            "As a user, you have the following rights regarding your personal information:",
+          subsections: [
+            {
+              title: "Access:",
+              content:
+                "You can request access to your personal data and obtain a copy.",
+            },
+            {
+              title: "Rectification:",
+              content:
+                "You have the right to correct incorrect or incomplete information.",
+            },
+            {
+              title: "Deletion:",
+              content:
+                "You can request deletion of your personal information when it's no longer necessary for the purposes for which it was collected.",
+            },
+            {
+              title: "Opposition and Restriction:",
+              content:
+                "You have the right to oppose or limit the processing of your data in certain circumstances.",
+            },
+          ],
+          footer:
+            "To exercise these rights, you can contact us at the email address indicated in the contact section.",
+        },
+        {
+          title: "8. Cookies",
+          content:
+            "Our website uses cookies to improve your browsing experience. Cookies are small files stored on your device that help us understand how users navigate our site. You can configure your browser to reject cookies, although this may affect site functionality.",
+        },
+        {
+          title: "9. Third-Party Links",
+          content:
+            "Our website may contain links to third-party sites. This Privacy Statement only applies to our site, so we recommend reviewing the privacy policies of external sites you visit.",
+        },
+        {
+          title: "10. Changes to Privacy Statement",
+          content:
+            "House Facility reserves the right to update this Privacy Statement at any time. We will post any changes on this page and, when necessary, notify you. We recommend reviewing this statement periodically to stay informed about how we protect your information.",
+        },
+        {
+          title: "11. Contact",
+          content:
+            "If you have any questions, concerns, or wish to exercise your rights regarding your personal information, you can contact us via email at hello@housefacility.com or through the contact form available on our site.",
+          footer:
+            "House Facility appreciates your trust and is committed to protecting your privacy in accordance with this Privacy Statement.",
+        },
+      ],
+    },
+    cookies: {
+      title: "Cookie Definitions",
+      sections: [
+        {
+          title: "1. What are cookies?",
+          content:
+            "Cookies are small text files that are stored on your device when you visit a website. These files contain data about your browsing that help improve your online experience, allowing the site to remember your preferences and offer you relevant content.",
+        },
+        {
+          title: "2. Types of Cookies We Use",
+          content: "We use the following types of cookies:",
+          subsections: [
+            {
+              title: "Essential Cookies:",
+              content:
+                "These are necessary for basic site functionality and allow you to navigate and use its features. Without these cookies, the website cannot function properly.",
+            },
+            {
+              title: "Performance Cookies:",
+              content:
+                "These collect information about how users interact with the site, allowing us to optimize its performance. These cookies help us identify the most and least popular pages and understand how users move within the site.",
+            },
+            {
+              title: "Functionality Cookies:",
+              content:
+                "These allow the site to remember your preferences and settings (such as language or region) to offer a more personalized experience.",
+            },
+            {
+              title: "Advertising Cookies:",
+              content:
+                "These are used to show relevant ads based on user interests. These cookies also limit how often you see an ad and help measure the effectiveness of advertising campaigns.",
+            },
+          ],
+        },
+        {
+          title: "3. Cookie Management",
+          content:
+            "You can configure your browser to block or delete cookies at any time. Please note that if you disable cookies, some site functionalities may be affected and your browsing experience might not be optimal.",
+        },
+        {
+          title: "4. Third-Party Cookies",
+          content:
+            "Our site may use third-party cookies, such as analytics service providers and social networks, which may also collect data for advertising or analysis purposes. These cookies are subject to the privacy policies of these third parties.",
+        },
+        {
+          title: "5. Consent for Cookie Use",
+          content:
+            "When you first browse our website, we request your consent for cookie use through a notification or banner. You can modify or withdraw your consent at any time through your browser's cookie settings.",
+          footer:
+            "If you would like more information about cookie use on our site, you can contact us at hello@housefacility.com",
+        },
+      ],
+    },
+  },
 };

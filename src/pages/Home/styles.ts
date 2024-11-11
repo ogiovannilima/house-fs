@@ -39,6 +39,7 @@ export const NavBar = styled.div`
 export const LanguageMenu = styled.div`
   display: flex;
   gap: 1rem;
+  z-index: 999;
 `;
 
 export const LanguageMenuItem = styled.div<{ selected?: boolean }>`

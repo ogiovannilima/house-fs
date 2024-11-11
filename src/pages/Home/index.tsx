@@ -78,10 +78,16 @@ import {
   TripImg,
   WhiteLogoImg,
   WomankidImg,
+  EletricPersonaImg,
+  PainterPersonaImg,
+  PlumberPersonaImg,
+  CleanerPersonaImg,
 } from "../../assets";
 
+import { useLanguage } from "../../contexts/LanguageContext";
+
 export function Home() {
-  const [selectedLanguage, setSelectedLanguage] = useState<"ES" | "EN">("ES");
+  const { selectedLanguage, setSelectedLanguage } = useLanguage();
   const [selectedMenuItem, setSelectedMenuItem] = useState("HOME");
   const navigate = useNavigate();
 
@@ -365,7 +371,10 @@ export function Home() {
 
               <CardServices>
                 <BoxIconTitle>
-                  <img src={ManLadderImg} alt="ManLadder" />
+                  <img
+                    src={EletricPersonaImg}
+                    alt="Electrician Persona Image"
+                  />
                   <TitleServicesCard>
                     {textLanguage.services.electrician.title}
                   </TitleServicesCard>
@@ -384,7 +393,7 @@ export function Home() {
             <BoxFlexServicesRow>
               <CardServices>
                 <BoxIconTitle>
-                  <img src={ManLadderImg} alt="ManLadder" />
+                  <img src={PainterPersonaImg} alt="Painter Persona Image" />
                   <TitleServicesCard>
                     {textLanguage.services.painting.title}
                   </TitleServicesCard>
@@ -404,7 +413,7 @@ export function Home() {
 
             <CardServices>
               <BoxIconTitle>
-                <img src={ManLadderImg} alt="ManLadder" />
+                <img src={PlumberPersonaImg} alt="Plumber Persona Image" />
                 <TitleServicesCard>
                   {textLanguage.services.plumber.title}
                 </TitleServicesCard>
@@ -425,7 +434,7 @@ export function Home() {
 
               <CardServices>
                 <BoxIconTitle>
-                  <img src={ManLadderImg} alt="ManLadder" />
+                  <img src={CleanerPersonaImg} alt="Cleaner Persona Image" />
                   <TitleServicesCard>
                     {textLanguage.services.parquet.title}
                   </TitleServicesCard>

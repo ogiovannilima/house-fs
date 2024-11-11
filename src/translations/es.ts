@@ -149,4 +149,245 @@ export const es = {
       specialist: "Habla con un especialista",
     },
   },
+  pages: {
+    terms: {
+      title: "Términos y Condiciones de Uso - House Facility",
+      sections: [
+        {
+          title: "1. Introducción",
+          content:
+            "Bienvenido al sitio web de House Facility. Al acceder y utilizar nuestro sitio web, usted acepta los siguientes términos y condiciones de uso. Estos términos son aplicables a todos los usuarios y visitantes del sitio web de House Facility. Si no está de acuerdo con estos términos, le pedimos que no utilice nuestro sitio.",
+        },
+        {
+          title: "2. Uso del Sitio Web",
+          content:
+            "El sitio web de House Facility se proporciona con fines informativos sobre nuestros servicios de gestión de siniestros, mantenimiento y otros servicios relacionados. Usted se compromete a utilizar el sitio web de manera legal y a respetar los derechos y la seguridad de otros usuarios.",
+        },
+        {
+          title: "3. Propiedad Intelectual",
+          content:
+            "Todo el contenido del sitio web, incluidos textos, imágenes, gráficos, logotipos y software, es propiedad de House Facility o de sus licenciantes y está protegido por las leyes de propiedad intelectual. No se permite copiar, reproducir, distribuir ni utilizar el contenido sin la autorización previa y expresa de House Facility.",
+        },
+        {
+          title: "4. Información de Servicios",
+          content:
+            "House Facility se esfuerza por mantener la información de sus servicios actualizada y precisa. Sin embargo, no garantizamos que toda la información sea completamente precisa, completa o libre de errores. Nos reservamos el derecho a modificar o actualizar la información sobre nuestros servicios sin previo aviso.",
+        },
+        {
+          title: "5. Limitación de Responsabilidad",
+          content:
+            "House Facility no será responsable por daños directos, indirectos, incidentales, especiales o consecuentes derivados del uso o de la imposibilidad de uso del sitio web. No garantizamos que el sitio esté libre de errores, virus u otros componentes dañinos, y usted asume la responsabilidad de cualquier daño a su equipo o pérdida de datos resultante del uso del sitio.",
+        },
+        {
+          title: "6. Enlaces a Terceros",
+          content:
+            "Nuestro sitio puede contener enlaces a sitios web de terceros. Estos enlaces se proporcionan únicamente para su conveniencia y no implican ningún respaldo ni responsabilidad por el contenido de dichos sitios. House Facility no es responsable de las prácticas de privacidad ni del contenido de los sitios web enlazados.",
+        },
+        {
+          title: "7. Privacidad y Datos Personales",
+          content:
+            "House Facility se compromete a proteger la privacidad de sus usuarios y a manejar los datos personales conforme a nuestra Política de Privacidad. Al utilizar nuestro sitio web, usted acepta la recopilación y el uso de su información personal de acuerdo con dicha política.",
+        },
+        {
+          title: "8. Modificación de Términos",
+          content:
+            "House Facility se reserva el derecho de modificar o actualizar estos términos y condiciones en cualquier momento. Las modificaciones entrarán en vigor en el momento de su publicación en el sitio web. Se recomienda que revise periódicamente esta página para estar informado de cualquier cambio.",
+        },
+        {
+          title: "9. Jurisdicción y Ley Aplicable",
+          content:
+            "Estos términos y condiciones se regirán e interpretarán de acuerdo con las leyes de España. Cualquier disputa que surja del uso del sitio web de House Facility se someterá a la jurisdicción exclusiva de los tribunales españoles.",
+        },
+        {
+          title: "10. Contacto",
+          content:
+            "Si tiene alguna pregunta sobre estos términos y condiciones, por favor contáctenos a través de nuestro formulario en el sitio web o en la siguiente dirección de correo electrónico: holla@housefacility.com",
+          footer:
+            "House Facility agradece su visita a nuestro sitio y su respeto por estos términos y condiciones.",
+        },
+      ],
+    },
+    privacy: {
+      title: "Declaración de Privacidad - House Facility",
+      sections: [
+        {
+          title: "1. Introducción",
+          content:
+            "En House Facility valoramos su privacidad y estamos comprometidos a proteger la información personal que usted comparte con nosotros. Esta Declaración de Privacidad describe cómo recopilamos, utilizamos y protegemos su información cuando visita nuestro sitio web. Al usar nuestro sitio, usted acepta las prácticas descritas en esta declaración.",
+        },
+        {
+          title: "2. Información que Recopilamos",
+          content:
+            "Podemos recopilar y procesar los siguientes tipos de información personal:",
+          subsections: [
+            {
+              title: "Información de Contacto:",
+              content:
+                "Nombre, correo electrónico, número de teléfono y cualquier otro dato que proporcione al completar formularios de contacto o de consulta en nuestro sitio.",
+            },
+            {
+              title: "Información de Navegación:",
+              content:
+                "Datos sobre su visita al sitio, incluidos la dirección IP, tipo de navegador, páginas visitadas y tiempo de navegación. Esto se utiliza para mejorar la funcionalidad y experiencia del sitio.",
+            },
+          ],
+          footer:
+            "No recopilamos información personal sensible sin su consentimiento explícito.",
+        },
+        {
+          title: "3. Uso de la Información",
+          content:
+            "House Facility utiliza la información recopilada para los siguientes propósitos:",
+          subsections: [
+            {
+              title: "Proveer y Mejorar Servicios:",
+              content:
+                "Procesar sus consultas, proporcionar los servicios solicitados y mejorar nuestra oferta de servicios.",
+            },
+            {
+              title: "Comunicaciones:",
+              content:
+                "Enviarle actualizaciones, ofertas especiales y notificaciones relevantes sobre nuestros servicios.",
+            },
+            {
+              title: "Mejora del Sitio Web:",
+              content:
+                "Analizar el uso del sitio para mejorar la funcionalidad, el contenido y la experiencia del usuario.",
+            },
+          ],
+        },
+        {
+          title: "4. Compartición de la Información",
+          content:
+            "House Facility no compartirá su información personal con terceros, salvo en las siguientes circunstancias:",
+          subsections: [
+            {
+              title: "Proveedores de Servicios:",
+              content:
+                "Podemos compartir su información con proveedores que ayudan a operar el sitio web y ofrecer servicios en nuestro nombre, sujetos a estrictas obligaciones de confidencialidad.",
+            },
+            {
+              title: "Cumplimiento Legal:",
+              content:
+                "Podemos divulgar su información en cumplimiento de una obligación legal o en respuesta a solicitudes de autoridades gubernamentales cuando sea necesario.",
+            },
+          ],
+        },
+        {
+          title: "5. Seguridad de la Información",
+          content:
+            "House Facility implementa medidas de seguridad técnicas y organizativas para proteger su información personal contra accesos no autorizados, pérdidas o destrucción. Si bien trabajamos para proteger sus datos, no podemos garantizar una seguridad absoluta en internet.",
+        },
+        {
+          title: "6. Retención de Datos",
+          content:
+            "Conservamos su información personal solo durante el tiempo necesario para cumplir con los fines para los que fue recopilada, a menos que la ley requiera o permita una retención más prolongada.",
+        },
+        {
+          title: "7. Derechos del Usuario",
+          content:
+            "Como usuario, usted tiene los siguientes derechos sobre su información personal:",
+          subsections: [
+            {
+              title: "Acceso:",
+              content:
+                "Puede solicitar acceso a sus datos personales y obtener una copia de los mismos.",
+            },
+            {
+              title: "Rectificación:",
+              content:
+                "Tiene derecho a corregir información incorrecta o incompleta.",
+            },
+            {
+              title: "Eliminación:",
+              content:
+                "Puede solicitar la eliminación de su información personal cuando ya no sea necesaria para los fines por los que fue recopilada.",
+            },
+            {
+              title: "Oposición y Restricción:",
+              content:
+                "Tiene derecho a oponerse o limitar el procesamiento de sus datos en ciertas circunstancias.",
+            },
+          ],
+          footer:
+            "Para ejercer estos derechos, puede contactarnos en el correo electrónico indicado en la sección de contacto.",
+        },
+        {
+          title: "8. Cookies",
+          content:
+            "Nuestro sitio web utiliza cookies para mejorar su experiencia de navegación. Las cookies son pequeños archivos que se almacenan en su dispositivo y nos ayudan a entender cómo los usuarios navegan por nuestro sitio. Puede configurar su navegador para rechazar cookies, aunque esto puede afectar la funcionalidad del sitio.",
+        },
+        {
+          title: "9. Enlaces a Terceros",
+          content:
+            "Nuestro sitio web puede contener enlaces a sitios de terceros. Esta Declaración de Privacidad solo se aplica a nuestro sitio, por lo que le recomendamos que revise las políticas de privacidad de los sitios externos que visite.",
+        },
+        {
+          title: "10. Cambios en la Declaración de Privacidad",
+          content:
+            "House Facility se reserva el derecho de actualizar esta Declaración de Privacidad en cualquier momento. Publicaremos cualquier cambio en esta página y, cuando sea necesario, se lo notificaremos. Le recomendamos que revise esta declaración periódicamente para estar informado sobre cómo protegemos su información.",
+        },
+        {
+          title: "11. Contacto",
+          content:
+            "Si tiene alguna pregunta, duda o desea ejercer sus derechos sobre su información personal, puede contactarnos a través del correo electrónico holla@housefacility.com o mediante el formulario de contacto disponible en nuestro sitio.",
+          footer:
+            "House Facility agradece su confianza y se compromete a proteger su privacidad conforme a esta Declaración de Privacidad.",
+        },
+      ],
+    },
+    cookies: {
+      title: "Definiciones de Cookies",
+      sections: [
+        {
+          title: "1. ¿Qué son las cookies?",
+          content:
+            "Las cookies son pequeños archivos de texto que se almacenan en su dispositivo cuando visita un sitio web. Estos archivos contienen datos sobre su navegación que ayudan a mejorar su experiencia en línea, permitiendo al sitio recordar sus preferencias y ofrecerle contenido relevante.",
+        },
+        {
+          title: "2. Tipos de Cookies que Utilizamos",
+          content: "Utilizamos los siguientes tipos de cookies:",
+          subsections: [
+            {
+              title: "Cookies Esenciales:",
+              content:
+                "Son necesarias para el funcionamiento básico del sitio y le permiten navegar y utilizar sus funcionalidades. Sin estas cookies, el sitio web no puede funcionar correctamente.",
+            },
+            {
+              title: "Cookies de Rendimiento:",
+              content:
+                "Recopilan información sobre cómo los usuarios interactúan con el sitio, permitiéndonos optimizar su rendimiento. Estas cookies nos ayudan a identificar las páginas más y menos populares y entender cómo se mueve el usuario dentro del sitio.",
+            },
+            {
+              title: "Cookies de Funcionalidad:",
+              content:
+                "Permiten al sitio recordar sus preferencias y configuraciones (como el idioma o región) para ofrecer una experiencia más personalizada.",
+            },
+            {
+              title: "Cookies de Publicidad:",
+              content:
+                "Se utilizan para mostrar anuncios relevantes para el usuario en función de sus intereses. Estas cookies también limitan la frecuencia con la que ve un anuncio y ayudan a medir la efectividad de las campañas publicitarias.",
+            },
+          ],
+        },
+        {
+          title: "3. Gestión de Cookies",
+          content:
+            "Puede configurar su navegador para bloquear o eliminar cookies en cualquier momento. Tenga en cuenta que si desactiva las cookies, algunas funcionalidades del sitio pueden verse afectadas y su experiencia de navegación podría no ser óptima.",
+        },
+        {
+          title: "4. Cookies de Terceros",
+          content:
+            "Nuestro sitio puede utilizar cookies de terceros, como proveedores de servicios de análisis y redes sociales, que también pueden recopilar datos con fines de publicidad o análisis. Estas cookies están sujetas a las políticas de privacidad de dichos terceros.",
+        },
+        {
+          title: "5. Consentimiento para el Uso de Cookies",
+          content:
+            "Al navegar en nuestro sitio web por primera vez, le solicitamos su consentimiento para el uso de cookies a través de una notificación o banner. Puede modificar o retirar su consentimiento en cualquier momento a través de la configuración de cookies en su navegador.",
+          footer:
+            "Si desea obtener más información sobre el uso de cookies en nuestro sitio, puede ponerse en contacto con nosotros en holla@housefacility.com",
+        },
+      ],
+    },
+  },
 };
